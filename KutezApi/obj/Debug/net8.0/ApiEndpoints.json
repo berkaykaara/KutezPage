@@ -1,15 +1,15 @@
 [
   {
-    "ContainingType": "KutezApi.Controllers.WeatherForecastController",
+    "ContainingType": "KutezApi.Controllers.ProductsController",
     "Method": "Get",
-    "RelativePath": "WeatherForecast",
+    "RelativePath": "api/Products",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[KutezApi.WeatherForecast, KutezApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[KutezApi.Model.Product, KutezApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -17,7 +17,6 @@
         ],
         "StatusCode": 200
       }
-    ],
-    "EndpointName": "GetWeatherForecast"
+    ]
   }
 ]

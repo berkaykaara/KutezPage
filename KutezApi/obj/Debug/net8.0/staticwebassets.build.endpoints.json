@@ -1,5 +1,88 @@
 {
   "Version": 1,
   "ManifestType": "Build",
-  "Endpoints": []
+  "Endpoints": [
+    {
+      "Route": "data/products.json",
+      "AssetFile": "data/products.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3348"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aqCaJHTpcKJf1T3++f+4IwII1T8qB1GvyR2p6DaOw/s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 17:39:45 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-aqCaJHTpcKJf1T3++f+4IwII1T8qB1GvyR2p6DaOw/s="
+        }
+      ]
+    },
+    {
+      "Route": "data/products.yy88xoyqxh.json",
+      "AssetFile": "data/products.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3348"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aqCaJHTpcKJf1T3++f+4IwII1T8qB1GvyR2p6DaOw/s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 17:39:45 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yy88xoyqxh"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-aqCaJHTpcKJf1T3++f+4IwII1T8qB1GvyR2p6DaOw/s="
+        },
+        {
+          "Name": "label",
+          "Value": "data/products.json"
+        }
+      ]
+    }
+  ]
 }

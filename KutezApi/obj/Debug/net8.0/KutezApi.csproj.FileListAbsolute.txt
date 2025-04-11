@@ -34,3 +34,5 @@ C:\Users\PC\Desktop\Yeni klasör\KutezPage\KutezApi\obj\Debug\net8.0\refint\Kute
 C:\Users\PC\Desktop\Yeni klasör\KutezPage\KutezApi\obj\Debug\net8.0\KutezApi.pdb
 C:\Users\PC\Desktop\Yeni klasör\KutezPage\KutezApi\obj\Debug\net8.0\KutezApi.genruntimeconfig.cache
 C:\Users\PC\Desktop\Yeni klasör\KutezPage\KutezApi\obj\Debug\net8.0\ref\KutezApi.dll
+C:\Users\PC\Desktop\Yeni klasör\KutezPage\KutezApi\bin\Debug\net8.0\KutezApi.staticwebassets.runtime.json
+C:\Users\PC\Desktop\Yeni klasör\KutezPage\KutezApi\obj\Debug\net8.0\KutezApi.sourcelink.json

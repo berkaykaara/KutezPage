@@ -1,12 +1,125 @@
 {
   "Version": 1,
-  "Hash": "l0CStP8gOm6vKH/eg2ov4RCeTctdTC9UKyw/2vZY5cs=",
+  "Hash": "uOhznMXT+m8y2M9MCICXSOegl8HfL2snQMO3Zly/QYo=",
   "Source": "KutezApi",
   "BasePath": "_content/KutezApi",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "KutezApi\\wwwroot",
+      "Source": "KutezApi",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezApi\\wwwroot\\",
+      "BasePath": "_content/KutezApi",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezApi\\wwwroot\\data\\products.json",
+      "SourceId": "KutezApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezApi\\wwwroot\\",
+      "BasePath": "_content/KutezApi",
+      "RelativePath": "data/products#[.{fingerprint}]?.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "yy88xoyqxh",
+      "Integrity": "aqCaJHTpcKJf1T3++f+4IwII1T8qB1GvyR2p6DaOw/s=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\data\\products.json"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "data/products.json",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezApi\\wwwroot\\data\\products.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3348"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aqCaJHTpcKJf1T3++f+4IwII1T8qB1GvyR2p6DaOw/s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 17:39:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-aqCaJHTpcKJf1T3++f+4IwII1T8qB1GvyR2p6DaOw/s="
+        }
+      ]
+    },
+    {
+      "Route": "data/products.yy88xoyqxh.json",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezApi\\wwwroot\\data\\products.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3348"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aqCaJHTpcKJf1T3++f+4IwII1T8qB1GvyR2p6DaOw/s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 17:39:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yy88xoyqxh"
+        },
+        {
+          "Name": "label",
+          "Value": "data/products.json"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-aqCaJHTpcKJf1T3++f+4IwII1T8qB1GvyR2p6DaOw/s="
+        }
+      ]
+    }
+  ]
 }

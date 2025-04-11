@@ -5,12 +5,11 @@
     "version": "1.0"
   },
   "paths": {
-    "/WeatherForecast": {
+    "/api/Products": {
       "get": {
         "tags": [
-          "WeatherForecast"
+          "Products"
         ],
-        "operationId": "GetWeatherForecast",
         "responses": {
           "200": {
             "description": "OK",
@@ -19,7 +18,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/WeatherForecast"
+                    "$ref": "#/components/schemas/Product"
                   }
                 }
               },
@@ -27,7 +26,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/WeatherForecast"
+                    "$ref": "#/components/schemas/Product"
                   }
                 }
               },
@@ -35,7 +34,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/WeatherForecast"
+                    "$ref": "#/components/schemas/Product"
                   }
                 }
               }
@@ -47,23 +46,39 @@
   },
   "components": {
     "schemas": {
-      "WeatherForecast": {
+      "Product": {
         "type": "object",
         "properties": {
-          "date": {
+          "name": {
             "type": "string",
-            "format": "date"
+            "nullable": true
           },
-          "temperatureC": {
-            "type": "integer",
-            "format": "int32"
+          "popularityScore": {
+            "type": "number",
+            "format": "double"
           },
-          "temperatureF": {
-            "type": "integer",
-            "format": "int32",
-            "readOnly": true
+          "weight": {
+            "type": "number",
+            "format": "double"
           },
-          "summary": {
+          "images": {
+            "$ref": "#/components/schemas/ProductImage"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ProductImage": {
+        "type": "object",
+        "properties": {
+          "yellow": {
+            "type": "string",
+            "nullable": true
+          },
+          "rose": {
+            "type": "string",
+            "nullable": true
+          },
+          "white": {
             "type": "string",
             "nullable": true
           }
