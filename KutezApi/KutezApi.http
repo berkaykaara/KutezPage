@@ -1,0 +1,6 @@
+@KutezApi_HostAddress = http://localhost:5227
+
+GET {{KutezApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
