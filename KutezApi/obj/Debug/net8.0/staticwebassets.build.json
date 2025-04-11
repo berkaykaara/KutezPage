@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "uOhznMXT+m8y2M9MCICXSOegl8HfL2snQMO3Zly/QYo=",
+  "Hash": "wbTCDxyhB28GglbHc1AwTMiFFs30JDaMsTfloBN6UAE=",
   "Source": "KutezApi",
   "BasePath": "_content/KutezApi",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "KutezApi\\wwwroot",
       "Source": "KutezApi",
-      "ContentRoot": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezApi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezAPI\\wwwroot\\",
       "BasePath": "_content/KutezApi",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezApi\\wwwroot\\data\\products.json",
+      "Identity": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezAPI\\wwwroot\\data\\products.json",
       "SourceId": "KutezApi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezApi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezAPI\\wwwroot\\",
       "BasePath": "_content/KutezApi",
       "RelativePath": "data/products#[.{fingerprint}]?.json",
       "AssetKind": "All",
@@ -41,7 +41,7 @@
   "Endpoints": [
     {
       "Route": "data/products.json",
-      "AssetFile": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezApi\\wwwroot\\data\\products.json",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezAPI\\wwwroot\\data\\products.json",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -78,7 +78,7 @@
     },
     {
       "Route": "data/products.yy88xoyqxh.json",
-      "AssetFile": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezApi\\wwwroot\\data\\products.json",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezAPI\\wwwroot\\data\\products.json",
       "Selectors": [],
       "ResponseHeaders": [
         {

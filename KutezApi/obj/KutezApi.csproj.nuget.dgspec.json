@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezApi\\KutezApi.csproj": {}
+    "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezAPI\\KutezApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezApi\\KutezApi.csproj": {
+    "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezAPI\\KutezApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezApi\\KutezApi.csproj",
+        "projectUniqueName": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezAPI\\KutezApi.csproj",
         "projectName": "KutezApi",
-        "projectPath": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezApi\\KutezApi.csproj",
+        "projectPath": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezAPI\\KutezApi.csproj",
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezApi\\obj\\",
         "projectStyle": "PackageReference",

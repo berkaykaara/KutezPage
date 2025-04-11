@@ -456,8 +456,8 @@
     },
     "KutezApi/1.0.0": {
       "type": "project",
-      "path": "../KutezApi/KutezApi.csproj",
-      "msbuildProject": "../KutezApi/KutezApi.csproj"
+      "path": "../KutezAPI/KutezApi.csproj",
+      "msbuildProject": "../KutezAPI/KutezApi.csproj"
     }
   },
   "projectFileDependencyGroups": {

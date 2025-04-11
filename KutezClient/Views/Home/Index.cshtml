@@ -1,92 +1,42 @@
 ﻿@model List<KutezApi.Model.Product>
 
 @{
-    ViewData["Title"] = "Engagement Rings";
+    ViewData["Title"] = "Product List";
 }
 
-<style>
-    .product-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-        gap: 30px;
-    }
-
-    .product-card {
-        border: 1px solid #eee;
-        border-radius: 12px;
-        padding: 15px;
-        box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-        background-color: #fff;
-        transition: transform 0.2s;
-    }
-
-        .product-card:hover {
-            transform: scale(1.02);
-        }
-
-    .product-title {
-        font-size: 1.1rem;
-        font-weight: 600;
-        text-align: center;
-        margin-bottom: 10px;
-    }
-
-    .product-image img {
-        width: 100%;
-        height: auto;
-        border-radius: 8px;
-        margin-bottom: 10px;
-    }
-
-    .color-buttons {
-        display: flex;
-        justify-content: center;
-        gap: 10px;
-        margin-top: 10px;
-    }
-
-    .color-button {
-        width: 20px;
-        height: 20px;
-        border-radius: 50%;
-        border: 2px solid #888;
-        cursor: pointer;
-    }
-
-    .yellow {
-        background-color: #f1c40f;
-    }
-
-    .rose {
-        background-color: #f1948a;
-    }
-
-    .white {
-        background-color: #ecf0f1;
-    }
-</style>
-
-<h1 style="text-align: center; margin: 40px 0;">Engagement Rings</h1>
+<h1 class="page-title">Product List</h1>
 
 <div class="product-grid">
     @for (int i = 0; i < Model.Count; i++)
     {
         var product = Model[i];
-        var id = "productImg" + i;
+        var imgId = "productImg" + i;
+        var colorNameId = "colorName" + i;
         <div class="product-card">
+            <div class="product-image">
+                <img id="@imgId" src="@product.Images.Yellow" alt="@product.Name" />
+            </div>
+
             <div class="product-title">@product.Name</div>
 
-            <div class="product-image">
-                <img id="@id" src="@product.Images.Yellow" alt="@product.Name" />
-            </div>
-
             <div class="color-buttons">
-                <div class="color-button yellow" onclick="changeImage('@id', '@product.Images.Yellow')"></div>
-                <div class="color-button rose" onclick="changeImage('@id', '@product.Images.Rose')"></div>
-                <div class="color-button white" onclick="changeImage('@id', '@product.Images.White')"></div>
+                <label class="color-label yellow">
+                    <input type="radio" name="color-@i" checked onchange="changeImage('@imgId', '@product.Images.Yellow', '@colorNameId', 'Yellow Gold')" />
+                    <span class="color-dot"></span>
+                </label>
+                <label class="color-label white">
+                    <input type="radio" name="color-@i" onchange="changeImage('@imgId', '@product.Images.White', '@colorNameId', 'White Gold')" />
+                    <span class="color-dot"></span>
+                </label>
+                <label class="color-label rose">
+                    <input type="radio" name="color-@i" onchange="changeImage('@imgId', '@product.Images.Rose', '@colorNameId', 'Rose Gold')" />
+                    <span class="color-dot"></span>
+                </label>
             </div>
 
-            <div class="product-info" style="text-align: center; margin-top: 10px;">
+            <div class="selected-color-name" id="@colorNameId">Yellow Gold</div>
+
+            <div class="product-info" style="margin-top: 10px;">
                 <p><strong>Popularity:</strong> @product.PopularityScore</p>
                 <p><strong>Weight:</strong> @product.Weight g</p>
             </div>
@@ -95,10 +45,11 @@
 </div>
 
 <script>
-    function changeImage(imgId, newSrc) {
+    function changeImage(imgId, newSrc, colorNameId, colorName) {
         const img = document.getElementById(imgId);
-        if (img) {
-            img.src = newSrc;
-        }
+        if (img) img.src = newSrc;
+
+        const nameLabel = document.getElementById(colorNameId);
+        if (nameLabel) nameLabel.textContent = colorName;
     }
 </script>

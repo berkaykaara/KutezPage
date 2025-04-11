@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "h5a166S+6ZtErCptBss4UWpH3xdi96zcA1z6+rZZAjY=",
+  "Hash": "Aibk+/b3EaOCbq/XBhyaseQsVX9BlmbL82stR5IFjHI=",
   "Source": "KutezClient",
   "BasePath": "_content/KutezClient",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezApi\\KutezApi.csproj",
+      "Identity": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezAPI\\KutezApi.csproj",
       "Version": 2,
       "Source": "KutezApi",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
@@ -22,7 +22,7 @@
     {
       "Name": "KutezApi\\wwwroot",
       "Source": "KutezApi",
-      "ContentRoot": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezApi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezAPI\\wwwroot\\",
       "BasePath": "_content/KutezApi",
       "Pattern": "**"
     },
@@ -36,10 +36,10 @@
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezApi\\wwwroot\\data\\products.json",
+      "Identity": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezAPI\\wwwroot\\data\\products.json",
       "SourceId": "KutezApi",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezApi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezAPI\\wwwroot\\",
       "BasePath": "_content/KutezApi",
       "RelativePath": "data/products#[.{fingerprint}]?.json",
       "AssetKind": "All",
@@ -54,7 +54,7 @@
       "Integrity": "aqCaJHTpcKJf1T3++f+4IwII1T8qB1GvyR2p6DaOw/s=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezApi\\wwwroot\\data\\products.json"
+      "OriginalItemSpec": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezAPI\\wwwroot\\data\\products.json"
     },
     {
       "Identity": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\obj\\Debug\\net8.0\\scopedcss\\bundle\\KutezClient.styles.css",
@@ -113,8 +113,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "c2tiyv64ts",
-      "Integrity": "pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=",
+      "Fingerprint": "0vpgs6mdfc",
+      "Integrity": "7PrskrxAGiceKg4lZYfDM+g49yshdEePUTxK9WbDL50=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -139,6 +139,657 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Avenir\\Avenir-Black.ttf",
+      "SourceId": "KutezClient",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\",
+      "BasePath": "_content/KutezClient",
+      "RelativePath": "fonts/Avenir/Avenir-Black#[.{fingerprint}]?.ttf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pp9096qvj1",
+      "Integrity": "0+0g42ZGEn75ch/1v5J9689ALpywEmjXyxgsp6Zv4Ck=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\fonts\\Avenir\\Avenir-Black.ttf"
+    },
+    {
+      "Identity": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Avenir\\Avenir-BlackOblique.ttf",
+      "SourceId": "KutezClient",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\",
+      "BasePath": "_content/KutezClient",
+      "RelativePath": "fonts/Avenir/Avenir-BlackOblique#[.{fingerprint}]?.ttf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "w1xy2xp4xm",
+      "Integrity": "LC5K5SP5lqaAqS8d9ITTq1sMu5ImxC/PBQJofKTLCBU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\fonts\\Avenir\\Avenir-BlackOblique.ttf"
+    },
+    {
+      "Identity": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Avenir\\Avenir-Book.ttf",
+      "SourceId": "KutezClient",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\",
+      "BasePath": "_content/KutezClient",
+      "RelativePath": "fonts/Avenir/Avenir-Book#[.{fingerprint}]?.ttf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "f3lm4vku8l",
+      "Integrity": "SzRVFuBKUWwmquoUxToX743ZIS4JSZakKQ28t2r0hjI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\fonts\\Avenir\\Avenir-Book.ttf"
+    },
+    {
+      "Identity": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Avenir\\Avenir-BookOblique.ttf",
+      "SourceId": "KutezClient",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\",
+      "BasePath": "_content/KutezClient",
+      "RelativePath": "fonts/Avenir/Avenir-BookOblique#[.{fingerprint}]?.ttf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gjywmk4wsi",
+      "Integrity": "3Fzo/pUQYJsdBVH1xPDz3wYosi7SEY4y8u5zKYyphHw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\fonts\\Avenir\\Avenir-BookOblique.ttf"
+    },
+    {
+      "Identity": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Avenir\\Avenir-Heavy.ttf",
+      "SourceId": "KutezClient",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\",
+      "BasePath": "_content/KutezClient",
+      "RelativePath": "fonts/Avenir/Avenir-Heavy#[.{fingerprint}]?.ttf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "au1rtnxsfc",
+      "Integrity": "Ektuh4UNsrUB+YVpp7D919zCW/qXKf+dpL+FsexgBtk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\fonts\\Avenir\\Avenir-Heavy.ttf"
+    },
+    {
+      "Identity": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Avenir\\Avenir-HeavyOblique.ttf",
+      "SourceId": "KutezClient",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\",
+      "BasePath": "_content/KutezClient",
+      "RelativePath": "fonts/Avenir/Avenir-HeavyOblique#[.{fingerprint}]?.ttf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4gu7zml97l",
+      "Integrity": "HL+nMTnVRzbEN8+9A8iiFJvWpSSRBLm7E/mz5wUgBF0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\fonts\\Avenir\\Avenir-HeavyOblique.ttf"
+    },
+    {
+      "Identity": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Avenir\\Avenir-Light.ttf",
+      "SourceId": "KutezClient",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\",
+      "BasePath": "_content/KutezClient",
+      "RelativePath": "fonts/Avenir/Avenir-Light#[.{fingerprint}]?.ttf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5fy8d42jnm",
+      "Integrity": "vwJmiCsJgl3TO5uhAd0AFmA1VuQVH+aKhuStbcg/9jU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\fonts\\Avenir\\Avenir-Light.ttf"
+    },
+    {
+      "Identity": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Avenir\\Avenir-LightOblique.ttf",
+      "SourceId": "KutezClient",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\",
+      "BasePath": "_content/KutezClient",
+      "RelativePath": "fonts/Avenir/Avenir-LightOblique#[.{fingerprint}]?.ttf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "oswkw1ahos",
+      "Integrity": "+HhxuvgEodijYQVwOin4yxW/r7B7ta70uapQNyWi/XQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\fonts\\Avenir\\Avenir-LightOblique.ttf"
+    },
+    {
+      "Identity": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Avenir\\Avenir-Medium.ttf",
+      "SourceId": "KutezClient",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\",
+      "BasePath": "_content/KutezClient",
+      "RelativePath": "fonts/Avenir/Avenir-Medium#[.{fingerprint}]?.ttf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "e8g7lnx0id",
+      "Integrity": "7k67lOVyLDd2tiwZ9d3iBve7xl+Hua6euJbQWChmZSg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\fonts\\Avenir\\Avenir-Medium.ttf"
+    },
+    {
+      "Identity": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Avenir\\Avenir-MediumOblique.ttf",
+      "SourceId": "KutezClient",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\",
+      "BasePath": "_content/KutezClient",
+      "RelativePath": "fonts/Avenir/Avenir-MediumOblique#[.{fingerprint}]?.ttf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3h7jfdnwqn",
+      "Integrity": "l9/gCaxeM/IQjWVFfr55yUlaTG6dI93/f9YImg+hssQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\fonts\\Avenir\\Avenir-MediumOblique.ttf"
+    },
+    {
+      "Identity": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Avenir\\Avenir-Oblique.ttf",
+      "SourceId": "KutezClient",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\",
+      "BasePath": "_content/KutezClient",
+      "RelativePath": "fonts/Avenir/Avenir-Oblique#[.{fingerprint}]?.ttf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3hvmqfi1zr",
+      "Integrity": "154mvMaWfSYVfEp4UD2eJ7vN+8EjJK9L39ylKQa94y0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\fonts\\Avenir\\Avenir-Oblique.ttf"
+    },
+    {
+      "Identity": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Avenir\\Avenir-Roman.ttf",
+      "SourceId": "KutezClient",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\",
+      "BasePath": "_content/KutezClient",
+      "RelativePath": "fonts/Avenir/Avenir-Roman#[.{fingerprint}]?.ttf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "y7rvzzctoh",
+      "Integrity": "jgpK00aJ9DlG/hd0jp7vgcT0L+dy0GlnkMlD4qvGsic=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\fonts\\Avenir\\Avenir-Roman.ttf"
+    },
+    {
+      "Identity": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Montserrat\\Montserrat-Black.otf",
+      "SourceId": "KutezClient",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\",
+      "BasePath": "_content/KutezClient",
+      "RelativePath": "fonts/Montserrat/Montserrat-Black#[.{fingerprint}]?.otf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ase4cl8oft",
+      "Integrity": "JlyYfTE4bobeSQicVdkpigBOfWWdb4kOLo6EnqEujjw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\fonts\\Montserrat\\Montserrat-Black.otf"
+    },
+    {
+      "Identity": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Montserrat\\Montserrat-BlackItalic.otf",
+      "SourceId": "KutezClient",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\",
+      "BasePath": "_content/KutezClient",
+      "RelativePath": "fonts/Montserrat/Montserrat-BlackItalic#[.{fingerprint}]?.otf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ne3qrkoeal",
+      "Integrity": "QaHFwhKMibaZEX2wTLfJ7IarTpl27E4kxzN/i00UPeg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\fonts\\Montserrat\\Montserrat-BlackItalic.otf"
+    },
+    {
+      "Identity": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Montserrat\\Montserrat-Bold.otf",
+      "SourceId": "KutezClient",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\",
+      "BasePath": "_content/KutezClient",
+      "RelativePath": "fonts/Montserrat/Montserrat-Bold#[.{fingerprint}]?.otf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "unn2uoxgbr",
+      "Integrity": "SjIOCxeYhBYXiaDx+pqgFxdqE4X8O769nJs+iWlAoV8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\fonts\\Montserrat\\Montserrat-Bold.otf"
+    },
+    {
+      "Identity": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Montserrat\\Montserrat-Bold.ttf",
+      "SourceId": "KutezClient",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\",
+      "BasePath": "_content/KutezClient",
+      "RelativePath": "fonts/Montserrat/Montserrat-Bold#[.{fingerprint}]?.ttf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4ddknyq2wd",
+      "Integrity": "WCByocfoK0HIhHEcoYgRHRE5SQehCV5z1VDNxw8HL94=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\fonts\\Montserrat\\Montserrat-Bold.ttf"
+    },
+    {
+      "Identity": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Montserrat\\Montserrat-BoldItalic.ttf",
+      "SourceId": "KutezClient",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\",
+      "BasePath": "_content/KutezClient",
+      "RelativePath": "fonts/Montserrat/Montserrat-BoldItalic#[.{fingerprint}]?.ttf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2kx6zr4euy",
+      "Integrity": "Yv6+jg16kV8O3aWAYY71H4wXz2/Nd9LzKqwWCZWDDGA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\fonts\\Montserrat\\Montserrat-BoldItalic.ttf"
+    },
+    {
+      "Identity": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Montserrat\\Montserrat-ExtraBold.otf",
+      "SourceId": "KutezClient",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\",
+      "BasePath": "_content/KutezClient",
+      "RelativePath": "fonts/Montserrat/Montserrat-ExtraBold#[.{fingerprint}]?.otf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6t3rtly3x6",
+      "Integrity": "Ct2N943wvNEEnr2sASu7ueAEjv8vSOwWKDMq7jo+y2k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\fonts\\Montserrat\\Montserrat-ExtraBold.otf"
+    },
+    {
+      "Identity": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Montserrat\\Montserrat-ExtraBoldItalic.otf",
+      "SourceId": "KutezClient",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\",
+      "BasePath": "_content/KutezClient",
+      "RelativePath": "fonts/Montserrat/Montserrat-ExtraBoldItalic#[.{fingerprint}]?.otf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "soo1yxy1kf",
+      "Integrity": "PBkWwuxa88lGZiJQCIjQm+2fWKHGVNVBAcmEAxQMjhA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\fonts\\Montserrat\\Montserrat-ExtraBoldItalic.otf"
+    },
+    {
+      "Identity": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Montserrat\\Montserrat-ExtraLight.otf",
+      "SourceId": "KutezClient",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\",
+      "BasePath": "_content/KutezClient",
+      "RelativePath": "fonts/Montserrat/Montserrat-ExtraLight#[.{fingerprint}]?.otf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mqdocwkqla",
+      "Integrity": "cth5ssdbKlH7ZuLAz+dMSMmStKzf1QmEVvdgQJwDD3o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\fonts\\Montserrat\\Montserrat-ExtraLight.otf"
+    },
+    {
+      "Identity": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Montserrat\\Montserrat-ExtraLightItalic.otf",
+      "SourceId": "KutezClient",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\",
+      "BasePath": "_content/KutezClient",
+      "RelativePath": "fonts/Montserrat/Montserrat-ExtraLightItalic#[.{fingerprint}]?.otf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "r31qn1d2zc",
+      "Integrity": "F/Ot/9KaNSxIXHDFOq5QUcp/ZgaypKesqKLI57gYb9k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\fonts\\Montserrat\\Montserrat-ExtraLightItalic.otf"
+    },
+    {
+      "Identity": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Montserrat\\Montserrat-Italic.ttf",
+      "SourceId": "KutezClient",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\",
+      "BasePath": "_content/KutezClient",
+      "RelativePath": "fonts/Montserrat/Montserrat-Italic#[.{fingerprint}]?.ttf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "e1depy8x3a",
+      "Integrity": "gnpe4h8PomVdKe7HzwO1sVem9EgVpe67Nm0s8Alq3aE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\fonts\\Montserrat\\Montserrat-Italic.ttf"
+    },
+    {
+      "Identity": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Montserrat\\Montserrat-Light.otf",
+      "SourceId": "KutezClient",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\",
+      "BasePath": "_content/KutezClient",
+      "RelativePath": "fonts/Montserrat/Montserrat-Light#[.{fingerprint}]?.otf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7uw2m54kq5",
+      "Integrity": "QaPNqY02IXePuAX8oiZvrTT3twbReD+wcsd7mykleMw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\fonts\\Montserrat\\Montserrat-Light.otf"
+    },
+    {
+      "Identity": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Montserrat\\Montserrat-LightItalic.otf",
+      "SourceId": "KutezClient",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\",
+      "BasePath": "_content/KutezClient",
+      "RelativePath": "fonts/Montserrat/Montserrat-LightItalic#[.{fingerprint}]?.otf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vmuzk25bav",
+      "Integrity": "13FtgSBwzikuIGXEeQCyAiIPNu8tEurqYx+2YPevXVI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\fonts\\Montserrat\\Montserrat-LightItalic.otf"
+    },
+    {
+      "Identity": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Montserrat\\Montserrat-Medium.otf",
+      "SourceId": "KutezClient",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\",
+      "BasePath": "_content/KutezClient",
+      "RelativePath": "fonts/Montserrat/Montserrat-Medium#[.{fingerprint}]?.otf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7lr37166l2",
+      "Integrity": "lWYyz8EsulqwwfEreiHK1L8smu11n0IH6iUtAGbOpdY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\fonts\\Montserrat\\Montserrat-Medium.otf"
+    },
+    {
+      "Identity": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Montserrat\\Montserrat-MediumItalic.otf",
+      "SourceId": "KutezClient",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\",
+      "BasePath": "_content/KutezClient",
+      "RelativePath": "fonts/Montserrat/Montserrat-MediumItalic#[.{fingerprint}]?.otf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2zda9v5myk",
+      "Integrity": "wkURMm1R2auTpVtnlMHmeSodSSGK1kws0srymqxyaAE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\fonts\\Montserrat\\Montserrat-MediumItalic.otf"
+    },
+    {
+      "Identity": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Montserrat\\Montserrat-Regular.ttf",
+      "SourceId": "KutezClient",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\",
+      "BasePath": "_content/KutezClient",
+      "RelativePath": "fonts/Montserrat/Montserrat-Regular#[.{fingerprint}]?.ttf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9xf27wc5cn",
+      "Integrity": "41tCdKM/RD+GEFmyi28BDGHNc3MZiyGGdhtW6oN5WBU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\fonts\\Montserrat\\Montserrat-Regular.ttf"
+    },
+    {
+      "Identity": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Montserrat\\Montserrat-SemiBold.otf",
+      "SourceId": "KutezClient",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\",
+      "BasePath": "_content/KutezClient",
+      "RelativePath": "fonts/Montserrat/Montserrat-SemiBold#[.{fingerprint}]?.otf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ufvccoop1e",
+      "Integrity": "KtZiuDwWehx5a57CrPvEWznzWRHBaUOb+l2y2PsIAgk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\fonts\\Montserrat\\Montserrat-SemiBold.otf"
+    },
+    {
+      "Identity": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Montserrat\\Montserrat-SemiBoldItalic.otf",
+      "SourceId": "KutezClient",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\",
+      "BasePath": "_content/KutezClient",
+      "RelativePath": "fonts/Montserrat/Montserrat-SemiBoldItalic#[.{fingerprint}]?.otf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "auhqdd9lkm",
+      "Integrity": "0i2pZDBfvG9tnhvsKUYRDytHnWhOBaApyTpo7qFdsD8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\fonts\\Montserrat\\Montserrat-SemiBoldItalic.otf"
+    },
+    {
+      "Identity": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Montserrat\\Montserrat-Thin.otf",
+      "SourceId": "KutezClient",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\",
+      "BasePath": "_content/KutezClient",
+      "RelativePath": "fonts/Montserrat/Montserrat-Thin#[.{fingerprint}]?.otf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jfyh1yv0rj",
+      "Integrity": "jyE6jOdDD60UlpGiaZ5RZ1wrWwL9zy0OarSeKRqyA/c=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\fonts\\Montserrat\\Montserrat-Thin.otf"
+    },
+    {
+      "Identity": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Montserrat\\Montserrat-ThinItalic.otf",
+      "SourceId": "KutezClient",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\",
+      "BasePath": "_content/KutezClient",
+      "RelativePath": "fonts/Montserrat/Montserrat-ThinItalic#[.{fingerprint}]?.otf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2hrq5yegfn",
+      "Integrity": "aiXRpqR1V2LI6aZg/UBTX5deO/hc5kNu4IYdAsxUy+M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\fonts\\Montserrat\\Montserrat-ThinItalic.otf"
     },
     {
       "Identity": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\js\\site.js",
@@ -1362,7 +2013,7 @@
   "Endpoints": [
     {
       "Route": "_content/KutezApi/data/products.json",
-      "AssetFile": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezApi\\wwwroot\\data\\products.json",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezAPI\\wwwroot\\data\\products.json",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1399,7 +2050,7 @@
     },
     {
       "Route": "_content/KutezApi/data/products.yy88xoyqxh.json",
-      "AssetFile": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezApi\\wwwroot\\data\\products.json",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezAPI\\wwwroot\\data\\products.json",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1443,7 +2094,7 @@
       ]
     },
     {
-      "Route": "css/site.c2tiyv64ts.css",
+      "Route": "css/site.0vpgs6mdfc.css",
       "AssetFile": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1453,7 +2104,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "362"
+          "Value": "2641"
         },
         {
           "Name": "Content-Type",
@@ -1461,11 +2112,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=\""
+          "Value": "\"7PrskrxAGiceKg4lZYfDM+g49yshdEePUTxK9WbDL50=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Apr 2025 14:47:41 GMT"
+          "Value": "Fri, 11 Apr 2025 16:57:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1475,7 +2126,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "c2tiyv64ts"
+          "Value": "0vpgs6mdfc"
         },
         {
           "Name": "label",
@@ -1483,7 +2134,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
+          "Value": "sha256-7PrskrxAGiceKg4lZYfDM+g49yshdEePUTxK9WbDL50="
         }
       ]
     },
@@ -1498,7 +2149,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "362"
+          "Value": "2641"
         },
         {
           "Name": "Content-Type",
@@ -1506,11 +2157,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=\""
+          "Value": "\"7PrskrxAGiceKg4lZYfDM+g49yshdEePUTxK9WbDL50=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Apr 2025 14:47:41 GMT"
+          "Value": "Fri, 11 Apr 2025 16:57:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1520,7 +2171,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
+          "Value": "sha256-7PrskrxAGiceKg4lZYfDM+g49yshdEePUTxK9WbDL50="
         }
       ]
     },
@@ -1603,6 +2254,2548 @@
         {
           "Name": "integrity",
           "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Avenir/Avenir-Black.pp9096qvj1.ttf",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Avenir\\Avenir-Black.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "91500"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0+0g42ZGEn75ch/1v5J9689ALpywEmjXyxgsp6Zv4Ck=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 17:39:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pp9096qvj1"
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Avenir/Avenir-Black.ttf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0+0g42ZGEn75ch/1v5J9689ALpywEmjXyxgsp6Zv4Ck="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Avenir/Avenir-Black.ttf",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Avenir\\Avenir-Black.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "91500"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0+0g42ZGEn75ch/1v5J9689ALpywEmjXyxgsp6Zv4Ck=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 17:39:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0+0g42ZGEn75ch/1v5J9689ALpywEmjXyxgsp6Zv4Ck="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Avenir/Avenir-BlackOblique.ttf",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Avenir\\Avenir-BlackOblique.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "85100"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LC5K5SP5lqaAqS8d9ITTq1sMu5ImxC/PBQJofKTLCBU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 17:39:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LC5K5SP5lqaAqS8d9ITTq1sMu5ImxC/PBQJofKTLCBU="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Avenir/Avenir-BlackOblique.w1xy2xp4xm.ttf",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Avenir\\Avenir-BlackOblique.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "85100"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LC5K5SP5lqaAqS8d9ITTq1sMu5ImxC/PBQJofKTLCBU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 17:39:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "w1xy2xp4xm"
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Avenir/Avenir-BlackOblique.ttf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LC5K5SP5lqaAqS8d9ITTq1sMu5ImxC/PBQJofKTLCBU="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Avenir/Avenir-Book.f3lm4vku8l.ttf",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Avenir\\Avenir-Book.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "143212"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SzRVFuBKUWwmquoUxToX743ZIS4JSZakKQ28t2r0hjI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 17:39:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "f3lm4vku8l"
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Avenir/Avenir-Book.ttf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SzRVFuBKUWwmquoUxToX743ZIS4JSZakKQ28t2r0hjI="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Avenir/Avenir-Book.ttf",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Avenir\\Avenir-Book.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "143212"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SzRVFuBKUWwmquoUxToX743ZIS4JSZakKQ28t2r0hjI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 17:39:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SzRVFuBKUWwmquoUxToX743ZIS4JSZakKQ28t2r0hjI="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Avenir/Avenir-BookOblique.gjywmk4wsi.ttf",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Avenir\\Avenir-BookOblique.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "150804"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3Fzo/pUQYJsdBVH1xPDz3wYosi7SEY4y8u5zKYyphHw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 17:39:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gjywmk4wsi"
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Avenir/Avenir-BookOblique.ttf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3Fzo/pUQYJsdBVH1xPDz3wYosi7SEY4y8u5zKYyphHw="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Avenir/Avenir-BookOblique.ttf",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Avenir\\Avenir-BookOblique.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "150804"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3Fzo/pUQYJsdBVH1xPDz3wYosi7SEY4y8u5zKYyphHw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 17:39:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3Fzo/pUQYJsdBVH1xPDz3wYosi7SEY4y8u5zKYyphHw="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Avenir/Avenir-Heavy.au1rtnxsfc.ttf",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Avenir\\Avenir-Heavy.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "94656"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ektuh4UNsrUB+YVpp7D919zCW/qXKf+dpL+FsexgBtk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 17:39:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "au1rtnxsfc"
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Avenir/Avenir-Heavy.ttf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ektuh4UNsrUB+YVpp7D919zCW/qXKf+dpL+FsexgBtk="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Avenir/Avenir-Heavy.ttf",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Avenir\\Avenir-Heavy.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "94656"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ektuh4UNsrUB+YVpp7D919zCW/qXKf+dpL+FsexgBtk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 17:39:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ektuh4UNsrUB+YVpp7D919zCW/qXKf+dpL+FsexgBtk="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Avenir/Avenir-HeavyOblique.4gu7zml97l.ttf",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Avenir\\Avenir-HeavyOblique.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "63400"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HL+nMTnVRzbEN8+9A8iiFJvWpSSRBLm7E/mz5wUgBF0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 17:39:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4gu7zml97l"
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Avenir/Avenir-HeavyOblique.ttf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HL+nMTnVRzbEN8+9A8iiFJvWpSSRBLm7E/mz5wUgBF0="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Avenir/Avenir-HeavyOblique.ttf",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Avenir\\Avenir-HeavyOblique.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "63400"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HL+nMTnVRzbEN8+9A8iiFJvWpSSRBLm7E/mz5wUgBF0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 17:39:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HL+nMTnVRzbEN8+9A8iiFJvWpSSRBLm7E/mz5wUgBF0="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Avenir/Avenir-Light.5fy8d42jnm.ttf",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Avenir\\Avenir-Light.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "88660"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vwJmiCsJgl3TO5uhAd0AFmA1VuQVH+aKhuStbcg/9jU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 17:39:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5fy8d42jnm"
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Avenir/Avenir-Light.ttf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vwJmiCsJgl3TO5uhAd0AFmA1VuQVH+aKhuStbcg/9jU="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Avenir/Avenir-Light.ttf",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Avenir\\Avenir-Light.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "88660"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vwJmiCsJgl3TO5uhAd0AFmA1VuQVH+aKhuStbcg/9jU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 17:39:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vwJmiCsJgl3TO5uhAd0AFmA1VuQVH+aKhuStbcg/9jU="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Avenir/Avenir-LightOblique.oswkw1ahos.ttf",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Avenir\\Avenir-LightOblique.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "77496"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+HhxuvgEodijYQVwOin4yxW/r7B7ta70uapQNyWi/XQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 17:39:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "oswkw1ahos"
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Avenir/Avenir-LightOblique.ttf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+HhxuvgEodijYQVwOin4yxW/r7B7ta70uapQNyWi/XQ="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Avenir/Avenir-LightOblique.ttf",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Avenir\\Avenir-LightOblique.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "77496"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+HhxuvgEodijYQVwOin4yxW/r7B7ta70uapQNyWi/XQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 17:39:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+HhxuvgEodijYQVwOin4yxW/r7B7ta70uapQNyWi/XQ="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Avenir/Avenir-Medium.e8g7lnx0id.ttf",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Avenir\\Avenir-Medium.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "138892"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7k67lOVyLDd2tiwZ9d3iBve7xl+Hua6euJbQWChmZSg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 17:39:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e8g7lnx0id"
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Avenir/Avenir-Medium.ttf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7k67lOVyLDd2tiwZ9d3iBve7xl+Hua6euJbQWChmZSg="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Avenir/Avenir-Medium.ttf",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Avenir\\Avenir-Medium.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "138892"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7k67lOVyLDd2tiwZ9d3iBve7xl+Hua6euJbQWChmZSg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 17:39:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7k67lOVyLDd2tiwZ9d3iBve7xl+Hua6euJbQWChmZSg="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Avenir/Avenir-MediumOblique.3h7jfdnwqn.ttf",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Avenir\\Avenir-MediumOblique.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "129120"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"l9/gCaxeM/IQjWVFfr55yUlaTG6dI93/f9YImg+hssQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 17:39:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3h7jfdnwqn"
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Avenir/Avenir-MediumOblique.ttf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-l9/gCaxeM/IQjWVFfr55yUlaTG6dI93/f9YImg+hssQ="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Avenir/Avenir-MediumOblique.ttf",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Avenir\\Avenir-MediumOblique.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "129120"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"l9/gCaxeM/IQjWVFfr55yUlaTG6dI93/f9YImg+hssQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 17:39:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-l9/gCaxeM/IQjWVFfr55yUlaTG6dI93/f9YImg+hssQ="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Avenir/Avenir-Oblique.3hvmqfi1zr.ttf",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Avenir\\Avenir-Oblique.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "70932"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"154mvMaWfSYVfEp4UD2eJ7vN+8EjJK9L39ylKQa94y0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 17:39:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3hvmqfi1zr"
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Avenir/Avenir-Oblique.ttf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-154mvMaWfSYVfEp4UD2eJ7vN+8EjJK9L39ylKQa94y0="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Avenir/Avenir-Oblique.ttf",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Avenir\\Avenir-Oblique.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "70932"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"154mvMaWfSYVfEp4UD2eJ7vN+8EjJK9L39ylKQa94y0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 17:39:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-154mvMaWfSYVfEp4UD2eJ7vN+8EjJK9L39ylKQa94y0="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Avenir/Avenir-Roman.ttf",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Avenir\\Avenir-Roman.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "104588"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jgpK00aJ9DlG/hd0jp7vgcT0L+dy0GlnkMlD4qvGsic=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 17:39:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jgpK00aJ9DlG/hd0jp7vgcT0L+dy0GlnkMlD4qvGsic="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Avenir/Avenir-Roman.y7rvzzctoh.ttf",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Avenir\\Avenir-Roman.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "104588"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jgpK00aJ9DlG/hd0jp7vgcT0L+dy0GlnkMlD4qvGsic=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 17:39:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "y7rvzzctoh"
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Avenir/Avenir-Roman.ttf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jgpK00aJ9DlG/hd0jp7vgcT0L+dy0GlnkMlD4qvGsic="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Montserrat/Montserrat-Black.ase4cl8oft.otf",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Montserrat\\Montserrat-Black.otf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "230124"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/otf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JlyYfTE4bobeSQicVdkpigBOfWWdb4kOLo6EnqEujjw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 17:39:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ase4cl8oft"
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Montserrat/Montserrat-Black.otf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JlyYfTE4bobeSQicVdkpigBOfWWdb4kOLo6EnqEujjw="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Montserrat/Montserrat-Black.otf",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Montserrat\\Montserrat-Black.otf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "230124"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/otf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JlyYfTE4bobeSQicVdkpigBOfWWdb4kOLo6EnqEujjw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 17:39:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JlyYfTE4bobeSQicVdkpigBOfWWdb4kOLo6EnqEujjw="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Montserrat/Montserrat-BlackItalic.ne3qrkoeal.otf",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Montserrat\\Montserrat-BlackItalic.otf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "236868"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/otf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QaHFwhKMibaZEX2wTLfJ7IarTpl27E4kxzN/i00UPeg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 17:39:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ne3qrkoeal"
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Montserrat/Montserrat-BlackItalic.otf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QaHFwhKMibaZEX2wTLfJ7IarTpl27E4kxzN/i00UPeg="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Montserrat/Montserrat-BlackItalic.otf",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Montserrat\\Montserrat-BlackItalic.otf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "236868"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/otf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QaHFwhKMibaZEX2wTLfJ7IarTpl27E4kxzN/i00UPeg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 17:39:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QaHFwhKMibaZEX2wTLfJ7IarTpl27E4kxzN/i00UPeg="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Montserrat/Montserrat-Bold.4ddknyq2wd.ttf",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Montserrat\\Montserrat-Bold.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "244036"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WCByocfoK0HIhHEcoYgRHRE5SQehCV5z1VDNxw8HL94=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 17:39:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4ddknyq2wd"
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Montserrat/Montserrat-Bold.ttf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WCByocfoK0HIhHEcoYgRHRE5SQehCV5z1VDNxw8HL94="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Montserrat/Montserrat-Bold.otf",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Montserrat\\Montserrat-Bold.otf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "235192"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/otf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SjIOCxeYhBYXiaDx+pqgFxdqE4X8O769nJs+iWlAoV8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 17:39:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SjIOCxeYhBYXiaDx+pqgFxdqE4X8O769nJs+iWlAoV8="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Montserrat/Montserrat-Bold.ttf",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Montserrat\\Montserrat-Bold.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "244036"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WCByocfoK0HIhHEcoYgRHRE5SQehCV5z1VDNxw8HL94=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 17:39:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WCByocfoK0HIhHEcoYgRHRE5SQehCV5z1VDNxw8HL94="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Montserrat/Montserrat-Bold.unn2uoxgbr.otf",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Montserrat\\Montserrat-Bold.otf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "235192"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/otf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SjIOCxeYhBYXiaDx+pqgFxdqE4X8O769nJs+iWlAoV8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 17:39:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "unn2uoxgbr"
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Montserrat/Montserrat-Bold.otf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SjIOCxeYhBYXiaDx+pqgFxdqE4X8O769nJs+iWlAoV8="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Montserrat/Montserrat-BoldItalic.2kx6zr4euy.ttf",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Montserrat\\Montserrat-BoldItalic.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "249124"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Yv6+jg16kV8O3aWAYY71H4wXz2/Nd9LzKqwWCZWDDGA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 17:39:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2kx6zr4euy"
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Montserrat/Montserrat-BoldItalic.ttf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Yv6+jg16kV8O3aWAYY71H4wXz2/Nd9LzKqwWCZWDDGA="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Montserrat/Montserrat-BoldItalic.ttf",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Montserrat\\Montserrat-BoldItalic.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "249124"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Yv6+jg16kV8O3aWAYY71H4wXz2/Nd9LzKqwWCZWDDGA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 17:39:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Yv6+jg16kV8O3aWAYY71H4wXz2/Nd9LzKqwWCZWDDGA="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Montserrat/Montserrat-ExtraBold.6t3rtly3x6.otf",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Montserrat\\Montserrat-ExtraBold.otf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "234432"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/otf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ct2N943wvNEEnr2sASu7ueAEjv8vSOwWKDMq7jo+y2k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 17:39:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6t3rtly3x6"
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Montserrat/Montserrat-ExtraBold.otf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ct2N943wvNEEnr2sASu7ueAEjv8vSOwWKDMq7jo+y2k="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Montserrat/Montserrat-ExtraBold.otf",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Montserrat\\Montserrat-ExtraBold.otf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "234432"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/otf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ct2N943wvNEEnr2sASu7ueAEjv8vSOwWKDMq7jo+y2k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 17:39:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ct2N943wvNEEnr2sASu7ueAEjv8vSOwWKDMq7jo+y2k="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Montserrat/Montserrat-ExtraBoldItalic.otf",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Montserrat\\Montserrat-ExtraBoldItalic.otf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "242800"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/otf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PBkWwuxa88lGZiJQCIjQm+2fWKHGVNVBAcmEAxQMjhA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 17:39:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PBkWwuxa88lGZiJQCIjQm+2fWKHGVNVBAcmEAxQMjhA="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Montserrat/Montserrat-ExtraBoldItalic.soo1yxy1kf.otf",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Montserrat\\Montserrat-ExtraBoldItalic.otf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "242800"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/otf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PBkWwuxa88lGZiJQCIjQm+2fWKHGVNVBAcmEAxQMjhA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 17:39:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "soo1yxy1kf"
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Montserrat/Montserrat-ExtraBoldItalic.otf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PBkWwuxa88lGZiJQCIjQm+2fWKHGVNVBAcmEAxQMjhA="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Montserrat/Montserrat-ExtraLight.mqdocwkqla.otf",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Montserrat\\Montserrat-ExtraLight.otf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "226772"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/otf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cth5ssdbKlH7ZuLAz+dMSMmStKzf1QmEVvdgQJwDD3o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 17:39:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mqdocwkqla"
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Montserrat/Montserrat-ExtraLight.otf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cth5ssdbKlH7ZuLAz+dMSMmStKzf1QmEVvdgQJwDD3o="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Montserrat/Montserrat-ExtraLight.otf",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Montserrat\\Montserrat-ExtraLight.otf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "226772"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/otf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cth5ssdbKlH7ZuLAz+dMSMmStKzf1QmEVvdgQJwDD3o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 17:39:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cth5ssdbKlH7ZuLAz+dMSMmStKzf1QmEVvdgQJwDD3o="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Montserrat/Montserrat-ExtraLightItalic.otf",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Montserrat\\Montserrat-ExtraLightItalic.otf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "236444"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/otf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"F/Ot/9KaNSxIXHDFOq5QUcp/ZgaypKesqKLI57gYb9k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 17:39:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-F/Ot/9KaNSxIXHDFOq5QUcp/ZgaypKesqKLI57gYb9k="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Montserrat/Montserrat-ExtraLightItalic.r31qn1d2zc.otf",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Montserrat\\Montserrat-ExtraLightItalic.otf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "236444"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/otf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"F/Ot/9KaNSxIXHDFOq5QUcp/ZgaypKesqKLI57gYb9k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 17:39:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "r31qn1d2zc"
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Montserrat/Montserrat-ExtraLightItalic.otf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-F/Ot/9KaNSxIXHDFOq5QUcp/ZgaypKesqKLI57gYb9k="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Montserrat/Montserrat-Italic.e1depy8x3a.ttf",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Montserrat\\Montserrat-Italic.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "248656"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gnpe4h8PomVdKe7HzwO1sVem9EgVpe67Nm0s8Alq3aE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 17:39:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e1depy8x3a"
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Montserrat/Montserrat-Italic.ttf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gnpe4h8PomVdKe7HzwO1sVem9EgVpe67Nm0s8Alq3aE="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Montserrat/Montserrat-Italic.ttf",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Montserrat\\Montserrat-Italic.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "248656"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gnpe4h8PomVdKe7HzwO1sVem9EgVpe67Nm0s8Alq3aE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 17:39:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gnpe4h8PomVdKe7HzwO1sVem9EgVpe67Nm0s8Alq3aE="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Montserrat/Montserrat-Light.7uw2m54kq5.otf",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Montserrat\\Montserrat-Light.otf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "228068"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/otf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QaPNqY02IXePuAX8oiZvrTT3twbReD+wcsd7mykleMw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 17:39:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7uw2m54kq5"
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Montserrat/Montserrat-Light.otf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QaPNqY02IXePuAX8oiZvrTT3twbReD+wcsd7mykleMw="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Montserrat/Montserrat-Light.otf",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Montserrat\\Montserrat-Light.otf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "228068"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/otf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QaPNqY02IXePuAX8oiZvrTT3twbReD+wcsd7mykleMw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 17:39:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QaPNqY02IXePuAX8oiZvrTT3twbReD+wcsd7mykleMw="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Montserrat/Montserrat-LightItalic.otf",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Montserrat\\Montserrat-LightItalic.otf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "237832"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/otf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"13FtgSBwzikuIGXEeQCyAiIPNu8tEurqYx+2YPevXVI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 17:39:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-13FtgSBwzikuIGXEeQCyAiIPNu8tEurqYx+2YPevXVI="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Montserrat/Montserrat-LightItalic.vmuzk25bav.otf",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Montserrat\\Montserrat-LightItalic.otf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "237832"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/otf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"13FtgSBwzikuIGXEeQCyAiIPNu8tEurqYx+2YPevXVI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 17:39:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vmuzk25bav"
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Montserrat/Montserrat-LightItalic.otf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-13FtgSBwzikuIGXEeQCyAiIPNu8tEurqYx+2YPevXVI="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Montserrat/Montserrat-Medium.7lr37166l2.otf",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Montserrat\\Montserrat-Medium.otf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "230356"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/otf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lWYyz8EsulqwwfEreiHK1L8smu11n0IH6iUtAGbOpdY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 17:39:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7lr37166l2"
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Montserrat/Montserrat-Medium.otf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lWYyz8EsulqwwfEreiHK1L8smu11n0IH6iUtAGbOpdY="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Montserrat/Montserrat-Medium.otf",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Montserrat\\Montserrat-Medium.otf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "230356"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/otf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lWYyz8EsulqwwfEreiHK1L8smu11n0IH6iUtAGbOpdY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 17:39:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lWYyz8EsulqwwfEreiHK1L8smu11n0IH6iUtAGbOpdY="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Montserrat/Montserrat-MediumItalic.2zda9v5myk.otf",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Montserrat\\Montserrat-MediumItalic.otf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "239660"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/otf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wkURMm1R2auTpVtnlMHmeSodSSGK1kws0srymqxyaAE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 17:39:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2zda9v5myk"
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Montserrat/Montserrat-MediumItalic.otf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wkURMm1R2auTpVtnlMHmeSodSSGK1kws0srymqxyaAE="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Montserrat/Montserrat-MediumItalic.otf",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Montserrat\\Montserrat-MediumItalic.otf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "239660"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/otf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wkURMm1R2auTpVtnlMHmeSodSSGK1kws0srymqxyaAE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 17:39:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wkURMm1R2auTpVtnlMHmeSodSSGK1kws0srymqxyaAE="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Montserrat/Montserrat-Regular.9xf27wc5cn.ttf",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Montserrat\\Montserrat-Regular.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "245276"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"41tCdKM/RD+GEFmyi28BDGHNc3MZiyGGdhtW6oN5WBU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 17:39:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9xf27wc5cn"
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Montserrat/Montserrat-Regular.ttf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-41tCdKM/RD+GEFmyi28BDGHNc3MZiyGGdhtW6oN5WBU="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Montserrat/Montserrat-Regular.ttf",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Montserrat\\Montserrat-Regular.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "245276"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"41tCdKM/RD+GEFmyi28BDGHNc3MZiyGGdhtW6oN5WBU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 17:39:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-41tCdKM/RD+GEFmyi28BDGHNc3MZiyGGdhtW6oN5WBU="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Montserrat/Montserrat-SemiBold.otf",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Montserrat\\Montserrat-SemiBold.otf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "234056"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/otf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KtZiuDwWehx5a57CrPvEWznzWRHBaUOb+l2y2PsIAgk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 17:39:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KtZiuDwWehx5a57CrPvEWznzWRHBaUOb+l2y2PsIAgk="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Montserrat/Montserrat-SemiBold.ufvccoop1e.otf",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Montserrat\\Montserrat-SemiBold.otf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "234056"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/otf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KtZiuDwWehx5a57CrPvEWznzWRHBaUOb+l2y2PsIAgk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 17:39:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ufvccoop1e"
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Montserrat/Montserrat-SemiBold.otf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KtZiuDwWehx5a57CrPvEWznzWRHBaUOb+l2y2PsIAgk="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Montserrat/Montserrat-SemiBoldItalic.auhqdd9lkm.otf",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Montserrat\\Montserrat-SemiBoldItalic.otf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "242672"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/otf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0i2pZDBfvG9tnhvsKUYRDytHnWhOBaApyTpo7qFdsD8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 17:39:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "auhqdd9lkm"
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Montserrat/Montserrat-SemiBoldItalic.otf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0i2pZDBfvG9tnhvsKUYRDytHnWhOBaApyTpo7qFdsD8="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Montserrat/Montserrat-SemiBoldItalic.otf",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Montserrat\\Montserrat-SemiBoldItalic.otf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "242672"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/otf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0i2pZDBfvG9tnhvsKUYRDytHnWhOBaApyTpo7qFdsD8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 17:39:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0i2pZDBfvG9tnhvsKUYRDytHnWhOBaApyTpo7qFdsD8="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Montserrat/Montserrat-Thin.jfyh1yv0rj.otf",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Montserrat\\Montserrat-Thin.otf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "217636"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/otf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jyE6jOdDD60UlpGiaZ5RZ1wrWwL9zy0OarSeKRqyA/c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 17:39:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jfyh1yv0rj"
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Montserrat/Montserrat-Thin.otf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jyE6jOdDD60UlpGiaZ5RZ1wrWwL9zy0OarSeKRqyA/c="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Montserrat/Montserrat-Thin.otf",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Montserrat\\Montserrat-Thin.otf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "217636"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/otf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jyE6jOdDD60UlpGiaZ5RZ1wrWwL9zy0OarSeKRqyA/c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 17:39:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jyE6jOdDD60UlpGiaZ5RZ1wrWwL9zy0OarSeKRqyA/c="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Montserrat/Montserrat-ThinItalic.2hrq5yegfn.otf",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Montserrat\\Montserrat-ThinItalic.otf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "227984"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/otf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aiXRpqR1V2LI6aZg/UBTX5deO/hc5kNu4IYdAsxUy+M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 17:39:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2hrq5yegfn"
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Montserrat/Montserrat-ThinItalic.otf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-aiXRpqR1V2LI6aZg/UBTX5deO/hc5kNu4IYdAsxUy+M="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Montserrat/Montserrat-ThinItalic.otf",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\Yeni klasör\\KutezPage\\KutezClient\\wwwroot\\fonts\\Montserrat\\Montserrat-ThinItalic.otf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "227984"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/otf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aiXRpqR1V2LI6aZg/UBTX5deO/hc5kNu4IYdAsxUy+M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 17:39:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-aiXRpqR1V2LI6aZg/UBTX5deO/hc5kNu4IYdAsxUy+M="
         }
       ]
     },

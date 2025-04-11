@@ -1,16 +1,16 @@
 ﻿<Project>
   <ItemGroup>
-    <StaticWebAssetEndpoint Include="_content/KutezClient/css/site.c2tiyv64ts.css">
+    <StaticWebAssetEndpoint Include="_content/KutezClient/css/site.0vpgs6mdfc.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"c2tiyv64ts"},{"Name":"integrity","Value":"sha256-pAGv4ietcJNk/EwsQZ5BN9\u002BK4MuNYS2a9wl4Jw\u002Bq9D0="},{"Name":"label","Value":"_content/KutezClient/css/site.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"362"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022pAGv4ietcJNk/EwsQZ5BN9\u002BK4MuNYS2a9wl4Jw\u002Bq9D0=\u0022"},{"Name":"Last-Modified","Value":"Fri, 11 Apr 2025 14:47:41 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"0vpgs6mdfc"},{"Name":"integrity","Value":"sha256-7PrskrxAGiceKg4lZYfDM\u002Bg49yshdEePUTxK9WbDL50="},{"Name":"label","Value":"_content/KutezClient/css/site.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2641"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00227PrskrxAGiceKg4lZYfDM\u002Bg49yshdEePUTxK9WbDL50=\u0022"},{"Name":"Last-Modified","Value":"Fri, 11 Apr 2025 16:57:01 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/KutezClient/css/site.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-pAGv4ietcJNk/EwsQZ5BN9\u002BK4MuNYS2a9wl4Jw\u002Bq9D0="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"362"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022pAGv4ietcJNk/EwsQZ5BN9\u002BK4MuNYS2a9wl4Jw\u002Bq9D0=\u0022"},{"Name":"Last-Modified","Value":"Fri, 11 Apr 2025 14:47:41 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-7PrskrxAGiceKg4lZYfDM\u002Bg49yshdEePUTxK9WbDL50="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2641"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00227PrskrxAGiceKg4lZYfDM\u002Bg49yshdEePUTxK9WbDL50=\u0022"},{"Name":"Last-Modified","Value":"Fri, 11 Apr 2025 16:57:01 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/KutezClient/favicon.61n19gt1b8.ico">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</AssetFile>
@@ -23,6 +23,378 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Jtxf9L\u002B5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"5430"},{"Name":"Content-Type","Value":"image/x-icon"},{"Name":"ETag","Value":"\u0022Jtxf9L\u002B5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\u0022"},{"Name":"Last-Modified","Value":"Fri, 11 Apr 2025 14:47:41 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KutezClient/fonts/Avenir/Avenir-Black.pp9096qvj1.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Avenir\Avenir-Black.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"pp9096qvj1"},{"Name":"integrity","Value":"sha256-0\u002B0g42ZGEn75ch/1v5J9689ALpywEmjXyxgsp6Zv4Ck="},{"Name":"label","Value":"_content/KutezClient/fonts/Avenir/Avenir-Black.ttf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"91500"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u00220\u002B0g42ZGEn75ch/1v5J9689ALpywEmjXyxgsp6Zv4Ck=\u0022"},{"Name":"Last-Modified","Value":"Thu, 10 Apr 2025 17:39:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KutezClient/fonts/Avenir/Avenir-Black.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Avenir\Avenir-Black.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-0\u002B0g42ZGEn75ch/1v5J9689ALpywEmjXyxgsp6Zv4Ck="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"91500"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u00220\u002B0g42ZGEn75ch/1v5J9689ALpywEmjXyxgsp6Zv4Ck=\u0022"},{"Name":"Last-Modified","Value":"Thu, 10 Apr 2025 17:39:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KutezClient/fonts/Avenir/Avenir-BlackOblique.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Avenir\Avenir-BlackOblique.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-LC5K5SP5lqaAqS8d9ITTq1sMu5ImxC/PBQJofKTLCBU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"85100"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022LC5K5SP5lqaAqS8d9ITTq1sMu5ImxC/PBQJofKTLCBU=\u0022"},{"Name":"Last-Modified","Value":"Thu, 10 Apr 2025 17:39:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KutezClient/fonts/Avenir/Avenir-BlackOblique.w1xy2xp4xm.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Avenir\Avenir-BlackOblique.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"w1xy2xp4xm"},{"Name":"integrity","Value":"sha256-LC5K5SP5lqaAqS8d9ITTq1sMu5ImxC/PBQJofKTLCBU="},{"Name":"label","Value":"_content/KutezClient/fonts/Avenir/Avenir-BlackOblique.ttf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"85100"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022LC5K5SP5lqaAqS8d9ITTq1sMu5ImxC/PBQJofKTLCBU=\u0022"},{"Name":"Last-Modified","Value":"Thu, 10 Apr 2025 17:39:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KutezClient/fonts/Avenir/Avenir-Book.f3lm4vku8l.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Avenir\Avenir-Book.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"f3lm4vku8l"},{"Name":"integrity","Value":"sha256-SzRVFuBKUWwmquoUxToX743ZIS4JSZakKQ28t2r0hjI="},{"Name":"label","Value":"_content/KutezClient/fonts/Avenir/Avenir-Book.ttf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"143212"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022SzRVFuBKUWwmquoUxToX743ZIS4JSZakKQ28t2r0hjI=\u0022"},{"Name":"Last-Modified","Value":"Thu, 10 Apr 2025 17:39:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KutezClient/fonts/Avenir/Avenir-Book.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Avenir\Avenir-Book.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-SzRVFuBKUWwmquoUxToX743ZIS4JSZakKQ28t2r0hjI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"143212"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022SzRVFuBKUWwmquoUxToX743ZIS4JSZakKQ28t2r0hjI=\u0022"},{"Name":"Last-Modified","Value":"Thu, 10 Apr 2025 17:39:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KutezClient/fonts/Avenir/Avenir-BookOblique.gjywmk4wsi.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Avenir\Avenir-BookOblique.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"gjywmk4wsi"},{"Name":"integrity","Value":"sha256-3Fzo/pUQYJsdBVH1xPDz3wYosi7SEY4y8u5zKYyphHw="},{"Name":"label","Value":"_content/KutezClient/fonts/Avenir/Avenir-BookOblique.ttf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"150804"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u00223Fzo/pUQYJsdBVH1xPDz3wYosi7SEY4y8u5zKYyphHw=\u0022"},{"Name":"Last-Modified","Value":"Thu, 10 Apr 2025 17:39:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KutezClient/fonts/Avenir/Avenir-BookOblique.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Avenir\Avenir-BookOblique.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-3Fzo/pUQYJsdBVH1xPDz3wYosi7SEY4y8u5zKYyphHw="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"150804"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u00223Fzo/pUQYJsdBVH1xPDz3wYosi7SEY4y8u5zKYyphHw=\u0022"},{"Name":"Last-Modified","Value":"Thu, 10 Apr 2025 17:39:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KutezClient/fonts/Avenir/Avenir-Heavy.au1rtnxsfc.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Avenir\Avenir-Heavy.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"au1rtnxsfc"},{"Name":"integrity","Value":"sha256-Ektuh4UNsrUB\u002BYVpp7D919zCW/qXKf\u002BdpL\u002BFsexgBtk="},{"Name":"label","Value":"_content/KutezClient/fonts/Avenir/Avenir-Heavy.ttf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"94656"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022Ektuh4UNsrUB\u002BYVpp7D919zCW/qXKf\u002BdpL\u002BFsexgBtk=\u0022"},{"Name":"Last-Modified","Value":"Thu, 10 Apr 2025 17:39:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KutezClient/fonts/Avenir/Avenir-Heavy.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Avenir\Avenir-Heavy.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Ektuh4UNsrUB\u002BYVpp7D919zCW/qXKf\u002BdpL\u002BFsexgBtk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"94656"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022Ektuh4UNsrUB\u002BYVpp7D919zCW/qXKf\u002BdpL\u002BFsexgBtk=\u0022"},{"Name":"Last-Modified","Value":"Thu, 10 Apr 2025 17:39:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KutezClient/fonts/Avenir/Avenir-HeavyOblique.4gu7zml97l.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Avenir\Avenir-HeavyOblique.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"4gu7zml97l"},{"Name":"integrity","Value":"sha256-HL\u002BnMTnVRzbEN8\u002B9A8iiFJvWpSSRBLm7E/mz5wUgBF0="},{"Name":"label","Value":"_content/KutezClient/fonts/Avenir/Avenir-HeavyOblique.ttf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"63400"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022HL\u002BnMTnVRzbEN8\u002B9A8iiFJvWpSSRBLm7E/mz5wUgBF0=\u0022"},{"Name":"Last-Modified","Value":"Thu, 10 Apr 2025 17:39:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KutezClient/fonts/Avenir/Avenir-HeavyOblique.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Avenir\Avenir-HeavyOblique.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-HL\u002BnMTnVRzbEN8\u002B9A8iiFJvWpSSRBLm7E/mz5wUgBF0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"63400"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022HL\u002BnMTnVRzbEN8\u002B9A8iiFJvWpSSRBLm7E/mz5wUgBF0=\u0022"},{"Name":"Last-Modified","Value":"Thu, 10 Apr 2025 17:39:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KutezClient/fonts/Avenir/Avenir-Light.5fy8d42jnm.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Avenir\Avenir-Light.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"5fy8d42jnm"},{"Name":"integrity","Value":"sha256-vwJmiCsJgl3TO5uhAd0AFmA1VuQVH\u002BaKhuStbcg/9jU="},{"Name":"label","Value":"_content/KutezClient/fonts/Avenir/Avenir-Light.ttf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"88660"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022vwJmiCsJgl3TO5uhAd0AFmA1VuQVH\u002BaKhuStbcg/9jU=\u0022"},{"Name":"Last-Modified","Value":"Thu, 10 Apr 2025 17:39:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KutezClient/fonts/Avenir/Avenir-Light.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Avenir\Avenir-Light.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-vwJmiCsJgl3TO5uhAd0AFmA1VuQVH\u002BaKhuStbcg/9jU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"88660"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022vwJmiCsJgl3TO5uhAd0AFmA1VuQVH\u002BaKhuStbcg/9jU=\u0022"},{"Name":"Last-Modified","Value":"Thu, 10 Apr 2025 17:39:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KutezClient/fonts/Avenir/Avenir-LightOblique.oswkw1ahos.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Avenir\Avenir-LightOblique.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"oswkw1ahos"},{"Name":"integrity","Value":"sha256-\u002BHhxuvgEodijYQVwOin4yxW/r7B7ta70uapQNyWi/XQ="},{"Name":"label","Value":"_content/KutezClient/fonts/Avenir/Avenir-LightOblique.ttf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"77496"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022\u002BHhxuvgEodijYQVwOin4yxW/r7B7ta70uapQNyWi/XQ=\u0022"},{"Name":"Last-Modified","Value":"Thu, 10 Apr 2025 17:39:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KutezClient/fonts/Avenir/Avenir-LightOblique.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Avenir\Avenir-LightOblique.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-\u002BHhxuvgEodijYQVwOin4yxW/r7B7ta70uapQNyWi/XQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"77496"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022\u002BHhxuvgEodijYQVwOin4yxW/r7B7ta70uapQNyWi/XQ=\u0022"},{"Name":"Last-Modified","Value":"Thu, 10 Apr 2025 17:39:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KutezClient/fonts/Avenir/Avenir-Medium.e8g7lnx0id.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Avenir\Avenir-Medium.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"e8g7lnx0id"},{"Name":"integrity","Value":"sha256-7k67lOVyLDd2tiwZ9d3iBve7xl\u002BHua6euJbQWChmZSg="},{"Name":"label","Value":"_content/KutezClient/fonts/Avenir/Avenir-Medium.ttf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"138892"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u00227k67lOVyLDd2tiwZ9d3iBve7xl\u002BHua6euJbQWChmZSg=\u0022"},{"Name":"Last-Modified","Value":"Thu, 10 Apr 2025 17:39:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KutezClient/fonts/Avenir/Avenir-Medium.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Avenir\Avenir-Medium.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-7k67lOVyLDd2tiwZ9d3iBve7xl\u002BHua6euJbQWChmZSg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"138892"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u00227k67lOVyLDd2tiwZ9d3iBve7xl\u002BHua6euJbQWChmZSg=\u0022"},{"Name":"Last-Modified","Value":"Thu, 10 Apr 2025 17:39:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KutezClient/fonts/Avenir/Avenir-MediumOblique.3h7jfdnwqn.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Avenir\Avenir-MediumOblique.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"3h7jfdnwqn"},{"Name":"integrity","Value":"sha256-l9/gCaxeM/IQjWVFfr55yUlaTG6dI93/f9YImg\u002BhssQ="},{"Name":"label","Value":"_content/KutezClient/fonts/Avenir/Avenir-MediumOblique.ttf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"129120"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022l9/gCaxeM/IQjWVFfr55yUlaTG6dI93/f9YImg\u002BhssQ=\u0022"},{"Name":"Last-Modified","Value":"Thu, 10 Apr 2025 17:39:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KutezClient/fonts/Avenir/Avenir-MediumOblique.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Avenir\Avenir-MediumOblique.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-l9/gCaxeM/IQjWVFfr55yUlaTG6dI93/f9YImg\u002BhssQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"129120"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022l9/gCaxeM/IQjWVFfr55yUlaTG6dI93/f9YImg\u002BhssQ=\u0022"},{"Name":"Last-Modified","Value":"Thu, 10 Apr 2025 17:39:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KutezClient/fonts/Avenir/Avenir-Oblique.3hvmqfi1zr.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Avenir\Avenir-Oblique.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"3hvmqfi1zr"},{"Name":"integrity","Value":"sha256-154mvMaWfSYVfEp4UD2eJ7vN\u002B8EjJK9L39ylKQa94y0="},{"Name":"label","Value":"_content/KutezClient/fonts/Avenir/Avenir-Oblique.ttf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"70932"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022154mvMaWfSYVfEp4UD2eJ7vN\u002B8EjJK9L39ylKQa94y0=\u0022"},{"Name":"Last-Modified","Value":"Thu, 10 Apr 2025 17:39:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KutezClient/fonts/Avenir/Avenir-Oblique.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Avenir\Avenir-Oblique.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-154mvMaWfSYVfEp4UD2eJ7vN\u002B8EjJK9L39ylKQa94y0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"70932"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022154mvMaWfSYVfEp4UD2eJ7vN\u002B8EjJK9L39ylKQa94y0=\u0022"},{"Name":"Last-Modified","Value":"Thu, 10 Apr 2025 17:39:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KutezClient/fonts/Avenir/Avenir-Roman.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Avenir\Avenir-Roman.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-jgpK00aJ9DlG/hd0jp7vgcT0L\u002Bdy0GlnkMlD4qvGsic="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"104588"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022jgpK00aJ9DlG/hd0jp7vgcT0L\u002Bdy0GlnkMlD4qvGsic=\u0022"},{"Name":"Last-Modified","Value":"Thu, 10 Apr 2025 17:39:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KutezClient/fonts/Avenir/Avenir-Roman.y7rvzzctoh.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Avenir\Avenir-Roman.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"y7rvzzctoh"},{"Name":"integrity","Value":"sha256-jgpK00aJ9DlG/hd0jp7vgcT0L\u002Bdy0GlnkMlD4qvGsic="},{"Name":"label","Value":"_content/KutezClient/fonts/Avenir/Avenir-Roman.ttf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"104588"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022jgpK00aJ9DlG/hd0jp7vgcT0L\u002Bdy0GlnkMlD4qvGsic=\u0022"},{"Name":"Last-Modified","Value":"Thu, 10 Apr 2025 17:39:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KutezClient/fonts/Montserrat/Montserrat-Black.ase4cl8oft.otf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Montserrat\Montserrat-Black.otf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ase4cl8oft"},{"Name":"integrity","Value":"sha256-JlyYfTE4bobeSQicVdkpigBOfWWdb4kOLo6EnqEujjw="},{"Name":"label","Value":"_content/KutezClient/fonts/Montserrat/Montserrat-Black.otf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"230124"},{"Name":"Content-Type","Value":"font/otf"},{"Name":"ETag","Value":"\u0022JlyYfTE4bobeSQicVdkpigBOfWWdb4kOLo6EnqEujjw=\u0022"},{"Name":"Last-Modified","Value":"Thu, 10 Apr 2025 17:39:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KutezClient/fonts/Montserrat/Montserrat-Black.otf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Montserrat\Montserrat-Black.otf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-JlyYfTE4bobeSQicVdkpigBOfWWdb4kOLo6EnqEujjw="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"230124"},{"Name":"Content-Type","Value":"font/otf"},{"Name":"ETag","Value":"\u0022JlyYfTE4bobeSQicVdkpigBOfWWdb4kOLo6EnqEujjw=\u0022"},{"Name":"Last-Modified","Value":"Thu, 10 Apr 2025 17:39:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KutezClient/fonts/Montserrat/Montserrat-BlackItalic.ne3qrkoeal.otf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Montserrat\Montserrat-BlackItalic.otf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ne3qrkoeal"},{"Name":"integrity","Value":"sha256-QaHFwhKMibaZEX2wTLfJ7IarTpl27E4kxzN/i00UPeg="},{"Name":"label","Value":"_content/KutezClient/fonts/Montserrat/Montserrat-BlackItalic.otf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"236868"},{"Name":"Content-Type","Value":"font/otf"},{"Name":"ETag","Value":"\u0022QaHFwhKMibaZEX2wTLfJ7IarTpl27E4kxzN/i00UPeg=\u0022"},{"Name":"Last-Modified","Value":"Thu, 10 Apr 2025 17:39:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KutezClient/fonts/Montserrat/Montserrat-BlackItalic.otf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Montserrat\Montserrat-BlackItalic.otf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-QaHFwhKMibaZEX2wTLfJ7IarTpl27E4kxzN/i00UPeg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"236868"},{"Name":"Content-Type","Value":"font/otf"},{"Name":"ETag","Value":"\u0022QaHFwhKMibaZEX2wTLfJ7IarTpl27E4kxzN/i00UPeg=\u0022"},{"Name":"Last-Modified","Value":"Thu, 10 Apr 2025 17:39:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KutezClient/fonts/Montserrat/Montserrat-Bold.4ddknyq2wd.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Montserrat\Montserrat-Bold.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"4ddknyq2wd"},{"Name":"integrity","Value":"sha256-WCByocfoK0HIhHEcoYgRHRE5SQehCV5z1VDNxw8HL94="},{"Name":"label","Value":"_content/KutezClient/fonts/Montserrat/Montserrat-Bold.ttf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"244036"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022WCByocfoK0HIhHEcoYgRHRE5SQehCV5z1VDNxw8HL94=\u0022"},{"Name":"Last-Modified","Value":"Thu, 10 Apr 2025 17:39:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KutezClient/fonts/Montserrat/Montserrat-Bold.otf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Montserrat\Montserrat-Bold.otf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-SjIOCxeYhBYXiaDx\u002BpqgFxdqE4X8O769nJs\u002BiWlAoV8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"235192"},{"Name":"Content-Type","Value":"font/otf"},{"Name":"ETag","Value":"\u0022SjIOCxeYhBYXiaDx\u002BpqgFxdqE4X8O769nJs\u002BiWlAoV8=\u0022"},{"Name":"Last-Modified","Value":"Thu, 10 Apr 2025 17:39:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KutezClient/fonts/Montserrat/Montserrat-Bold.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Montserrat\Montserrat-Bold.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-WCByocfoK0HIhHEcoYgRHRE5SQehCV5z1VDNxw8HL94="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"244036"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022WCByocfoK0HIhHEcoYgRHRE5SQehCV5z1VDNxw8HL94=\u0022"},{"Name":"Last-Modified","Value":"Thu, 10 Apr 2025 17:39:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KutezClient/fonts/Montserrat/Montserrat-Bold.unn2uoxgbr.otf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Montserrat\Montserrat-Bold.otf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"unn2uoxgbr"},{"Name":"integrity","Value":"sha256-SjIOCxeYhBYXiaDx\u002BpqgFxdqE4X8O769nJs\u002BiWlAoV8="},{"Name":"label","Value":"_content/KutezClient/fonts/Montserrat/Montserrat-Bold.otf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"235192"},{"Name":"Content-Type","Value":"font/otf"},{"Name":"ETag","Value":"\u0022SjIOCxeYhBYXiaDx\u002BpqgFxdqE4X8O769nJs\u002BiWlAoV8=\u0022"},{"Name":"Last-Modified","Value":"Thu, 10 Apr 2025 17:39:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KutezClient/fonts/Montserrat/Montserrat-BoldItalic.2kx6zr4euy.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Montserrat\Montserrat-BoldItalic.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"2kx6zr4euy"},{"Name":"integrity","Value":"sha256-Yv6\u002Bjg16kV8O3aWAYY71H4wXz2/Nd9LzKqwWCZWDDGA="},{"Name":"label","Value":"_content/KutezClient/fonts/Montserrat/Montserrat-BoldItalic.ttf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"249124"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022Yv6\u002Bjg16kV8O3aWAYY71H4wXz2/Nd9LzKqwWCZWDDGA=\u0022"},{"Name":"Last-Modified","Value":"Thu, 10 Apr 2025 17:39:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KutezClient/fonts/Montserrat/Montserrat-BoldItalic.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Montserrat\Montserrat-BoldItalic.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Yv6\u002Bjg16kV8O3aWAYY71H4wXz2/Nd9LzKqwWCZWDDGA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"249124"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022Yv6\u002Bjg16kV8O3aWAYY71H4wXz2/Nd9LzKqwWCZWDDGA=\u0022"},{"Name":"Last-Modified","Value":"Thu, 10 Apr 2025 17:39:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KutezClient/fonts/Montserrat/Montserrat-ExtraBold.6t3rtly3x6.otf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Montserrat\Montserrat-ExtraBold.otf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"6t3rtly3x6"},{"Name":"integrity","Value":"sha256-Ct2N943wvNEEnr2sASu7ueAEjv8vSOwWKDMq7jo\u002By2k="},{"Name":"label","Value":"_content/KutezClient/fonts/Montserrat/Montserrat-ExtraBold.otf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"234432"},{"Name":"Content-Type","Value":"font/otf"},{"Name":"ETag","Value":"\u0022Ct2N943wvNEEnr2sASu7ueAEjv8vSOwWKDMq7jo\u002By2k=\u0022"},{"Name":"Last-Modified","Value":"Thu, 10 Apr 2025 17:39:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KutezClient/fonts/Montserrat/Montserrat-ExtraBold.otf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Montserrat\Montserrat-ExtraBold.otf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Ct2N943wvNEEnr2sASu7ueAEjv8vSOwWKDMq7jo\u002By2k="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"234432"},{"Name":"Content-Type","Value":"font/otf"},{"Name":"ETag","Value":"\u0022Ct2N943wvNEEnr2sASu7ueAEjv8vSOwWKDMq7jo\u002By2k=\u0022"},{"Name":"Last-Modified","Value":"Thu, 10 Apr 2025 17:39:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KutezClient/fonts/Montserrat/Montserrat-ExtraBoldItalic.otf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Montserrat\Montserrat-ExtraBoldItalic.otf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-PBkWwuxa88lGZiJQCIjQm\u002B2fWKHGVNVBAcmEAxQMjhA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"242800"},{"Name":"Content-Type","Value":"font/otf"},{"Name":"ETag","Value":"\u0022PBkWwuxa88lGZiJQCIjQm\u002B2fWKHGVNVBAcmEAxQMjhA=\u0022"},{"Name":"Last-Modified","Value":"Thu, 10 Apr 2025 17:39:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KutezClient/fonts/Montserrat/Montserrat-ExtraBoldItalic.soo1yxy1kf.otf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Montserrat\Montserrat-ExtraBoldItalic.otf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"soo1yxy1kf"},{"Name":"integrity","Value":"sha256-PBkWwuxa88lGZiJQCIjQm\u002B2fWKHGVNVBAcmEAxQMjhA="},{"Name":"label","Value":"_content/KutezClient/fonts/Montserrat/Montserrat-ExtraBoldItalic.otf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"242800"},{"Name":"Content-Type","Value":"font/otf"},{"Name":"ETag","Value":"\u0022PBkWwuxa88lGZiJQCIjQm\u002B2fWKHGVNVBAcmEAxQMjhA=\u0022"},{"Name":"Last-Modified","Value":"Thu, 10 Apr 2025 17:39:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KutezClient/fonts/Montserrat/Montserrat-ExtraLight.mqdocwkqla.otf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Montserrat\Montserrat-ExtraLight.otf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"mqdocwkqla"},{"Name":"integrity","Value":"sha256-cth5ssdbKlH7ZuLAz\u002BdMSMmStKzf1QmEVvdgQJwDD3o="},{"Name":"label","Value":"_content/KutezClient/fonts/Montserrat/Montserrat-ExtraLight.otf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"226772"},{"Name":"Content-Type","Value":"font/otf"},{"Name":"ETag","Value":"\u0022cth5ssdbKlH7ZuLAz\u002BdMSMmStKzf1QmEVvdgQJwDD3o=\u0022"},{"Name":"Last-Modified","Value":"Thu, 10 Apr 2025 17:39:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KutezClient/fonts/Montserrat/Montserrat-ExtraLight.otf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Montserrat\Montserrat-ExtraLight.otf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-cth5ssdbKlH7ZuLAz\u002BdMSMmStKzf1QmEVvdgQJwDD3o="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"226772"},{"Name":"Content-Type","Value":"font/otf"},{"Name":"ETag","Value":"\u0022cth5ssdbKlH7ZuLAz\u002BdMSMmStKzf1QmEVvdgQJwDD3o=\u0022"},{"Name":"Last-Modified","Value":"Thu, 10 Apr 2025 17:39:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KutezClient/fonts/Montserrat/Montserrat-ExtraLightItalic.otf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Montserrat\Montserrat-ExtraLightItalic.otf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-F/Ot/9KaNSxIXHDFOq5QUcp/ZgaypKesqKLI57gYb9k="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"236444"},{"Name":"Content-Type","Value":"font/otf"},{"Name":"ETag","Value":"\u0022F/Ot/9KaNSxIXHDFOq5QUcp/ZgaypKesqKLI57gYb9k=\u0022"},{"Name":"Last-Modified","Value":"Thu, 10 Apr 2025 17:39:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KutezClient/fonts/Montserrat/Montserrat-ExtraLightItalic.r31qn1d2zc.otf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Montserrat\Montserrat-ExtraLightItalic.otf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"r31qn1d2zc"},{"Name":"integrity","Value":"sha256-F/Ot/9KaNSxIXHDFOq5QUcp/ZgaypKesqKLI57gYb9k="},{"Name":"label","Value":"_content/KutezClient/fonts/Montserrat/Montserrat-ExtraLightItalic.otf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"236444"},{"Name":"Content-Type","Value":"font/otf"},{"Name":"ETag","Value":"\u0022F/Ot/9KaNSxIXHDFOq5QUcp/ZgaypKesqKLI57gYb9k=\u0022"},{"Name":"Last-Modified","Value":"Thu, 10 Apr 2025 17:39:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KutezClient/fonts/Montserrat/Montserrat-Italic.e1depy8x3a.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Montserrat\Montserrat-Italic.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"e1depy8x3a"},{"Name":"integrity","Value":"sha256-gnpe4h8PomVdKe7HzwO1sVem9EgVpe67Nm0s8Alq3aE="},{"Name":"label","Value":"_content/KutezClient/fonts/Montserrat/Montserrat-Italic.ttf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"248656"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022gnpe4h8PomVdKe7HzwO1sVem9EgVpe67Nm0s8Alq3aE=\u0022"},{"Name":"Last-Modified","Value":"Thu, 10 Apr 2025 17:39:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KutezClient/fonts/Montserrat/Montserrat-Italic.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Montserrat\Montserrat-Italic.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-gnpe4h8PomVdKe7HzwO1sVem9EgVpe67Nm0s8Alq3aE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"248656"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022gnpe4h8PomVdKe7HzwO1sVem9EgVpe67Nm0s8Alq3aE=\u0022"},{"Name":"Last-Modified","Value":"Thu, 10 Apr 2025 17:39:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KutezClient/fonts/Montserrat/Montserrat-Light.7uw2m54kq5.otf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Montserrat\Montserrat-Light.otf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"7uw2m54kq5"},{"Name":"integrity","Value":"sha256-QaPNqY02IXePuAX8oiZvrTT3twbReD\u002Bwcsd7mykleMw="},{"Name":"label","Value":"_content/KutezClient/fonts/Montserrat/Montserrat-Light.otf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"228068"},{"Name":"Content-Type","Value":"font/otf"},{"Name":"ETag","Value":"\u0022QaPNqY02IXePuAX8oiZvrTT3twbReD\u002Bwcsd7mykleMw=\u0022"},{"Name":"Last-Modified","Value":"Thu, 10 Apr 2025 17:39:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KutezClient/fonts/Montserrat/Montserrat-Light.otf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Montserrat\Montserrat-Light.otf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-QaPNqY02IXePuAX8oiZvrTT3twbReD\u002Bwcsd7mykleMw="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"228068"},{"Name":"Content-Type","Value":"font/otf"},{"Name":"ETag","Value":"\u0022QaPNqY02IXePuAX8oiZvrTT3twbReD\u002Bwcsd7mykleMw=\u0022"},{"Name":"Last-Modified","Value":"Thu, 10 Apr 2025 17:39:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KutezClient/fonts/Montserrat/Montserrat-LightItalic.otf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Montserrat\Montserrat-LightItalic.otf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-13FtgSBwzikuIGXEeQCyAiIPNu8tEurqYx\u002B2YPevXVI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"237832"},{"Name":"Content-Type","Value":"font/otf"},{"Name":"ETag","Value":"\u002213FtgSBwzikuIGXEeQCyAiIPNu8tEurqYx\u002B2YPevXVI=\u0022"},{"Name":"Last-Modified","Value":"Thu, 10 Apr 2025 17:39:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KutezClient/fonts/Montserrat/Montserrat-LightItalic.vmuzk25bav.otf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Montserrat\Montserrat-LightItalic.otf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"vmuzk25bav"},{"Name":"integrity","Value":"sha256-13FtgSBwzikuIGXEeQCyAiIPNu8tEurqYx\u002B2YPevXVI="},{"Name":"label","Value":"_content/KutezClient/fonts/Montserrat/Montserrat-LightItalic.otf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"237832"},{"Name":"Content-Type","Value":"font/otf"},{"Name":"ETag","Value":"\u002213FtgSBwzikuIGXEeQCyAiIPNu8tEurqYx\u002B2YPevXVI=\u0022"},{"Name":"Last-Modified","Value":"Thu, 10 Apr 2025 17:39:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KutezClient/fonts/Montserrat/Montserrat-Medium.7lr37166l2.otf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Montserrat\Montserrat-Medium.otf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"7lr37166l2"},{"Name":"integrity","Value":"sha256-lWYyz8EsulqwwfEreiHK1L8smu11n0IH6iUtAGbOpdY="},{"Name":"label","Value":"_content/KutezClient/fonts/Montserrat/Montserrat-Medium.otf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"230356"},{"Name":"Content-Type","Value":"font/otf"},{"Name":"ETag","Value":"\u0022lWYyz8EsulqwwfEreiHK1L8smu11n0IH6iUtAGbOpdY=\u0022"},{"Name":"Last-Modified","Value":"Thu, 10 Apr 2025 17:39:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KutezClient/fonts/Montserrat/Montserrat-Medium.otf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Montserrat\Montserrat-Medium.otf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-lWYyz8EsulqwwfEreiHK1L8smu11n0IH6iUtAGbOpdY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"230356"},{"Name":"Content-Type","Value":"font/otf"},{"Name":"ETag","Value":"\u0022lWYyz8EsulqwwfEreiHK1L8smu11n0IH6iUtAGbOpdY=\u0022"},{"Name":"Last-Modified","Value":"Thu, 10 Apr 2025 17:39:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KutezClient/fonts/Montserrat/Montserrat-MediumItalic.2zda9v5myk.otf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Montserrat\Montserrat-MediumItalic.otf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"2zda9v5myk"},{"Name":"integrity","Value":"sha256-wkURMm1R2auTpVtnlMHmeSodSSGK1kws0srymqxyaAE="},{"Name":"label","Value":"_content/KutezClient/fonts/Montserrat/Montserrat-MediumItalic.otf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"239660"},{"Name":"Content-Type","Value":"font/otf"},{"Name":"ETag","Value":"\u0022wkURMm1R2auTpVtnlMHmeSodSSGK1kws0srymqxyaAE=\u0022"},{"Name":"Last-Modified","Value":"Thu, 10 Apr 2025 17:39:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KutezClient/fonts/Montserrat/Montserrat-MediumItalic.otf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Montserrat\Montserrat-MediumItalic.otf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-wkURMm1R2auTpVtnlMHmeSodSSGK1kws0srymqxyaAE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"239660"},{"Name":"Content-Type","Value":"font/otf"},{"Name":"ETag","Value":"\u0022wkURMm1R2auTpVtnlMHmeSodSSGK1kws0srymqxyaAE=\u0022"},{"Name":"Last-Modified","Value":"Thu, 10 Apr 2025 17:39:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KutezClient/fonts/Montserrat/Montserrat-Regular.9xf27wc5cn.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Montserrat\Montserrat-Regular.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"9xf27wc5cn"},{"Name":"integrity","Value":"sha256-41tCdKM/RD\u002BGEFmyi28BDGHNc3MZiyGGdhtW6oN5WBU="},{"Name":"label","Value":"_content/KutezClient/fonts/Montserrat/Montserrat-Regular.ttf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"245276"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u002241tCdKM/RD\u002BGEFmyi28BDGHNc3MZiyGGdhtW6oN5WBU=\u0022"},{"Name":"Last-Modified","Value":"Thu, 10 Apr 2025 17:39:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KutezClient/fonts/Montserrat/Montserrat-Regular.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Montserrat\Montserrat-Regular.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-41tCdKM/RD\u002BGEFmyi28BDGHNc3MZiyGGdhtW6oN5WBU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"245276"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u002241tCdKM/RD\u002BGEFmyi28BDGHNc3MZiyGGdhtW6oN5WBU=\u0022"},{"Name":"Last-Modified","Value":"Thu, 10 Apr 2025 17:39:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KutezClient/fonts/Montserrat/Montserrat-SemiBold.otf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Montserrat\Montserrat-SemiBold.otf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-KtZiuDwWehx5a57CrPvEWznzWRHBaUOb\u002Bl2y2PsIAgk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"234056"},{"Name":"Content-Type","Value":"font/otf"},{"Name":"ETag","Value":"\u0022KtZiuDwWehx5a57CrPvEWznzWRHBaUOb\u002Bl2y2PsIAgk=\u0022"},{"Name":"Last-Modified","Value":"Thu, 10 Apr 2025 17:39:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KutezClient/fonts/Montserrat/Montserrat-SemiBold.ufvccoop1e.otf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Montserrat\Montserrat-SemiBold.otf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ufvccoop1e"},{"Name":"integrity","Value":"sha256-KtZiuDwWehx5a57CrPvEWznzWRHBaUOb\u002Bl2y2PsIAgk="},{"Name":"label","Value":"_content/KutezClient/fonts/Montserrat/Montserrat-SemiBold.otf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"234056"},{"Name":"Content-Type","Value":"font/otf"},{"Name":"ETag","Value":"\u0022KtZiuDwWehx5a57CrPvEWznzWRHBaUOb\u002Bl2y2PsIAgk=\u0022"},{"Name":"Last-Modified","Value":"Thu, 10 Apr 2025 17:39:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KutezClient/fonts/Montserrat/Montserrat-SemiBoldItalic.auhqdd9lkm.otf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Montserrat\Montserrat-SemiBoldItalic.otf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"auhqdd9lkm"},{"Name":"integrity","Value":"sha256-0i2pZDBfvG9tnhvsKUYRDytHnWhOBaApyTpo7qFdsD8="},{"Name":"label","Value":"_content/KutezClient/fonts/Montserrat/Montserrat-SemiBoldItalic.otf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"242672"},{"Name":"Content-Type","Value":"font/otf"},{"Name":"ETag","Value":"\u00220i2pZDBfvG9tnhvsKUYRDytHnWhOBaApyTpo7qFdsD8=\u0022"},{"Name":"Last-Modified","Value":"Thu, 10 Apr 2025 17:39:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KutezClient/fonts/Montserrat/Montserrat-SemiBoldItalic.otf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Montserrat\Montserrat-SemiBoldItalic.otf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-0i2pZDBfvG9tnhvsKUYRDytHnWhOBaApyTpo7qFdsD8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"242672"},{"Name":"Content-Type","Value":"font/otf"},{"Name":"ETag","Value":"\u00220i2pZDBfvG9tnhvsKUYRDytHnWhOBaApyTpo7qFdsD8=\u0022"},{"Name":"Last-Modified","Value":"Thu, 10 Apr 2025 17:39:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KutezClient/fonts/Montserrat/Montserrat-Thin.jfyh1yv0rj.otf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Montserrat\Montserrat-Thin.otf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"jfyh1yv0rj"},{"Name":"integrity","Value":"sha256-jyE6jOdDD60UlpGiaZ5RZ1wrWwL9zy0OarSeKRqyA/c="},{"Name":"label","Value":"_content/KutezClient/fonts/Montserrat/Montserrat-Thin.otf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"217636"},{"Name":"Content-Type","Value":"font/otf"},{"Name":"ETag","Value":"\u0022jyE6jOdDD60UlpGiaZ5RZ1wrWwL9zy0OarSeKRqyA/c=\u0022"},{"Name":"Last-Modified","Value":"Thu, 10 Apr 2025 17:39:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KutezClient/fonts/Montserrat/Montserrat-Thin.otf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Montserrat\Montserrat-Thin.otf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-jyE6jOdDD60UlpGiaZ5RZ1wrWwL9zy0OarSeKRqyA/c="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"217636"},{"Name":"Content-Type","Value":"font/otf"},{"Name":"ETag","Value":"\u0022jyE6jOdDD60UlpGiaZ5RZ1wrWwL9zy0OarSeKRqyA/c=\u0022"},{"Name":"Last-Modified","Value":"Thu, 10 Apr 2025 17:39:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KutezClient/fonts/Montserrat/Montserrat-ThinItalic.2hrq5yegfn.otf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Montserrat\Montserrat-ThinItalic.otf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"2hrq5yegfn"},{"Name":"integrity","Value":"sha256-aiXRpqR1V2LI6aZg/UBTX5deO/hc5kNu4IYdAsxUy\u002BM="},{"Name":"label","Value":"_content/KutezClient/fonts/Montserrat/Montserrat-ThinItalic.otf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"227984"},{"Name":"Content-Type","Value":"font/otf"},{"Name":"ETag","Value":"\u0022aiXRpqR1V2LI6aZg/UBTX5deO/hc5kNu4IYdAsxUy\u002BM=\u0022"},{"Name":"Last-Modified","Value":"Thu, 10 Apr 2025 17:39:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KutezClient/fonts/Montserrat/Montserrat-ThinItalic.otf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Montserrat\Montserrat-ThinItalic.otf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-aiXRpqR1V2LI6aZg/UBTX5deO/hc5kNu4IYdAsxUy\u002BM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"227984"},{"Name":"Content-Type","Value":"font/otf"},{"Name":"ETag","Value":"\u0022aiXRpqR1V2LI6aZg/UBTX5deO/hc5kNu4IYdAsxUy\u002BM=\u0022"},{"Name":"Last-Modified","Value":"Thu, 10 Apr 2025 17:39:45 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/KutezClient/js/site.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>

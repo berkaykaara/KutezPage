@@ -3,28 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\PC\\Desktop\\Yeni klas\u00F6r\\KutezPage\\KutezApi\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9ED14C6C-FE68-4AF5-AA41-704096494602}|..\\KutezClient\\KutezClient.csproj|c:\\users\\pc\\desktop\\yeni klas\u00F6r\\kutezpage\\kutezclient\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9ED14C6C-FE68-4AF5-AA41-704096494602}|..\\KutezClient\\KutezClient.csproj|c:\\users\\pc\\desktop\\yeni klas\u00F6r\\kutezpage\\kutezclient\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9ED14C6C-FE68-4AF5-AA41-704096494602}|..\\KutezClient\\KutezClient.csproj|c:\\users\\pc\\desktop\\yeni klas\u00F6r\\kutezpage\\kutezclient\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9ED14C6C-FE68-4AF5-AA41-704096494602}|..\\KutezClient\\KutezClient.csproj|c:\\users\\pc\\desktop\\yeni klas\u00F6r\\kutezpage\\kutezclient\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9ED14C6C-FE68-4AF5-AA41-704096494602}|..\\KutezClient\\KutezClient.csproj|c:\\users\\pc\\desktop\\yeni klas\u00F6r\\kutezpage\\kutezclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C1EC15D-B07C-4C9D-AF30-83732E6B711D}|KutezApi.csproj|c:\\users\\pc\\desktop\\yeni klas\u00F6r\\kutezpage\\kutezapi\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C1EC15D-B07C-4C9D-AF30-83732E6B711D}|KutezApi.csproj|solutionrelative:services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C1EC15D-B07C-4C9D-AF30-83732E6B711D}|KutezApi.csproj|c:\\users\\pc\\desktop\\yeni klas\u00F6r\\kutezpage\\kutezapi\\model\\productimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C1EC15D-B07C-4C9D-AF30-83732E6B711D}|KutezApi.csproj|solutionrelative:model\\productimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C1EC15D-B07C-4C9D-AF30-83732E6B711D}|KutezApi.csproj|c:\\users\\pc\\desktop\\yeni klas\u00F6r\\kutezpage\\kutezapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C1EC15D-B07C-4C9D-AF30-83732E6B711D}|KutezApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,97 +16,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ProductService.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Yeni klas\u00F6r\\KutezPage\\KutezClient\\Services\\ProductService.cs",
-              "RelativeDocumentMoniker": "..\\KutezClient\\Services\\ProductService.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Yeni klas\u00F6r\\KutezPage\\KutezClient\\Services\\ProductService.cs",
-              "RelativeToolTip": "..\\KutezClient\\Services\\ProductService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T15:20:29.094Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Yeni klas\u00F6r\\KutezPage\\KutezClient\\Program.cs",
-              "RelativeDocumentMoniker": "..\\KutezClient\\Program.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Yeni klas\u00F6r\\KutezPage\\KutezClient\\Program.cs",
-              "RelativeToolTip": "..\\KutezClient\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T15:20:44.448Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Yeni klas\u00F6r\\KutezPage\\KutezClient\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "..\\KutezClient\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Yeni klas\u00F6r\\KutezPage\\KutezClient\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "..\\KutezClient\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T15:13:36.858Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProductService.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Yeni klas\u00F6r\\KutezPage\\KutezApi\\Services\\ProductService.cs",
-              "RelativeDocumentMoniker": "Services\\ProductService.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Yeni klas\u00F6r\\KutezPage\\KutezApi\\Services\\ProductService.cs",
-              "RelativeToolTip": "Services\\ProductService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T15:12:30.287Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Yeni klas\u00F6r\\KutezPage\\KutezApi\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Yeni klas\u00F6r\\KutezPage\\KutezApi\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T15:14:02.624Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ProductImage.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Yeni klas\u00F6r\\KutezPage\\KutezApi\\Model\\ProductImage.cs",
-              "RelativeDocumentMoniker": "Model\\ProductImage.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Yeni klas\u00F6r\\KutezPage\\KutezApi\\Model\\ProductImage.cs",
-              "RelativeToolTip": "Model\\ProductImage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T15:16:40.863Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Yeni klas\u00F6r\\KutezPage\\KutezClient\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "..\\KutezClient\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\PC\\Desktop\\Yeni klas\u00F6r\\KutezPage\\KutezClient\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "..\\KutezClient\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAACMAAAAAAAAAAAAcwDYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-11T15:13:31.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Yeni klas\u00F6r\\KutezPage\\KutezClient\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "..\\KutezClient\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Yeni klas\u00F6r\\KutezPage\\KutezClient\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "..\\KutezClient\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABkAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-11T16:20:58.538Z",
               "EditorCaption": ""
             }
           ]
