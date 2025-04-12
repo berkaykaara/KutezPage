@@ -398,4 +398,4 @@ FodyWeavers.xsd
 *.sln.iml
 
 # Uygulama ayarlarını gizle
-appsettings.json
+KutezApi/appsettings.json
