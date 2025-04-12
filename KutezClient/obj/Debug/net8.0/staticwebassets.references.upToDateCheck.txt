@@ -43,3 +43,17 @@ C:\Users\PC\Desktop\Yeni klasör\KutezPage\KutezApi\obj\Debug\net8.0\staticwebas
 C:\Users\PC\Desktop\Yeni klasör\KutezPage\KutezApi\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\PC\Desktop\Yeni klasör\KutezPage\KutezApi\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\PC\Desktop\Yeni klasör\KutezPage\KutezApi\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\PC\Desktop\Yeni klasör\KutezPage\KutezApi\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\PC\Desktop\Yeni klasör\KutezPage\KutezApi\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\PC\Desktop\Yeni klasör\KutezPage\KutezApi\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\PC\Desktop\Yeni klasör\KutezPage\KutezApi\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\PC\Desktop\Yeni klasör\KutezPage\KutezApi\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\PC\Desktop\Yeni klasör\KutezPage\KutezApi\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\PC\Desktop\Yeni klasör\KutezPage\KutezAPI\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\PC\Desktop\Yeni klasör\KutezPage\KutezApi\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\PC\Desktop\Yeni klasör\KutezPage\KutezApi\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\PC\Desktop\Yeni klasör\KutezPage\KutezAPI\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\PC\Desktop\Yeni klasör\KutezPage\KutezAPI\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\PC\Desktop\Yeni klasör\KutezPage\KutezAPI\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\PC\Desktop\Yeni klasör\KutezPage\KutezAPI\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\PC\Desktop\Yeni klasör\KutezPage\KutezAPI\obj\Debug\net8.0\staticwebassets.build.json

@@ -1,6 +1,5 @@
 ﻿using KutezApi.Model;
 using KutezApi.Services;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace KutezApi.Controllers
@@ -11,17 +10,18 @@ namespace KutezApi.Controllers
     {
         private readonly ProductService _productService;
 
-        public ProductsController()
+        // DI ile ProductService alınıyor
+        public ProductsController(ProductService productService)
         {
-            _productService = new ProductService();
+            _productService = productService;
         }
 
+        // GET: api/products
         [HttpGet]
         public async Task<ActionResult<List<Product>>> Get()
         {
-            var products = await _productService.GetAllWithCalculatedPriceAsync(); // ← Burada `await` önemli
-            return Ok(products); // `products` tipi artık List<Product>
+            var products = await _productService.GetAllWithCalculatedPriceAsync();
+            return Ok(products);
         }
-
     }
 }

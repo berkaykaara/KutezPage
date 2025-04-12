@@ -1,4 +1,6 @@
-﻿using System.Net.Http.Headers;
+﻿using KutezApi.Model;
+using Microsoft.Extensions.Options;
+using System.Net.Http.Headers;
 using System.Text.Json;
 
 namespace KutezApi.Services
@@ -6,32 +8,38 @@ namespace KutezApi.Services
     public class GoldPriceService
     {
         private readonly HttpClient _httpClient;
-        private const string ApiKey = "goldapi-17yeanmsm9deuf7l-io"; // ← Buraya kendi GoldAPI key'ini gir
-        private const string Url = "https://www.goldapi.io/api/XAU/USD";
+        private readonly GoldApiSettings _settings;
 
-        public GoldPriceService()
+        public GoldPriceService(IOptions<GoldApiSettings> settings)
         {
+            _settings = settings.Value;
             _httpClient = new HttpClient();
-            _httpClient.DefaultRequestHeaders.Add("x-access-token", ApiKey);
+
+            _httpClient.DefaultRequestHeaders.Add("x-access-token", _settings.ApiKey);
             _httpClient.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
         }
 
+        // Asenkron olarak gram başına 24 ayar altın fiyatını döndürür
         public async Task<double> GetGoldPricePerGramAsync()
         {
-            var response = await _httpClient.GetAsync(Url);
-            if (!response.IsSuccessStatusCode)
+            try
             {
-                // Gerekirse logla veya fallback fiyat döndür
-                return 60.0; // fallback fiyat (USD/gram)
+                var response = await _httpClient.GetAsync(_settings.Endpoint);
+
+                if (!response.IsSuccessStatusCode)
+                {
+                    return 60.0; // fallback fiyat (USD/gram)
+                }
+
+                var json = await response.Content.ReadAsStringAsync();
+                using var doc = JsonDocument.Parse(json);
+
+                return doc.RootElement.GetProperty("price_gram_24k").GetDouble();
             }
-
-            var json = await response.Content.ReadAsStringAsync();
-            using var doc = JsonDocument.Parse(json);
-
-            // gram_price key'ini direkt çekiyoruz
-            double pricePerGram = doc.RootElement.GetProperty("price_gram_24k").GetDouble();
-
-            return pricePerGram;
+            catch
+            {
+                return 60.0; // hata durumunda fallback
+            }
         }
     }
 }

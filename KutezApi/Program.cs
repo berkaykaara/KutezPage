@@ -1,11 +1,14 @@
+using KutezApi.Model;
 using KutezApi.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+// GoldApi yapýlandýrmasýný baðla
+builder.Services.Configure<GoldApiSettings>(builder.Configuration.GetSection("GoldApi"));
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+
+// Servisleri DI container'a ekle
 builder.Services.AddScoped<ProductService>();
 builder.Services.AddScoped<GoldPriceService>();
 
@@ -14,7 +17,7 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+// Geliþtirme ortamýnda Swagger UI'ý etkinleþtir
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -22,11 +25,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
 app.UseAuthorization();
-
-app.UseStaticFiles(); // JSON dosyasýný okumak için
+app.UseStaticFiles();
 
 app.MapControllers();
-
 app.Run();

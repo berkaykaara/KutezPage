@@ -1,5 +1,6 @@
 ﻿namespace KutezApi.Model
 {
+    //farklı renkleri tutabilmek için eklenen resim sınıfı
     public class ProductImage
     {
         public string Yellow { get; set; }
