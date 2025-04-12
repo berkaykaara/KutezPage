@@ -1,16 +1,16 @@
 ﻿<Project>
   <ItemGroup>
-    <StaticWebAssetEndpoint Include="_content/KutezClient/css/site.0vpgs6mdfc.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"0vpgs6mdfc"},{"Name":"integrity","Value":"sha256-7PrskrxAGiceKg4lZYfDM\u002Bg49yshdEePUTxK9WbDL50="},{"Name":"label","Value":"_content/KutezClient/css/site.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2641"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00227PrskrxAGiceKg4lZYfDM\u002Bg49yshdEePUTxK9WbDL50=\u0022"},{"Name":"Last-Modified","Value":"Fri, 11 Apr 2025 16:57:01 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/KutezClient/css/site.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-7PrskrxAGiceKg4lZYfDM\u002Bg49yshdEePUTxK9WbDL50="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2641"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00227PrskrxAGiceKg4lZYfDM\u002Bg49yshdEePUTxK9WbDL50=\u0022"},{"Name":"Last-Modified","Value":"Fri, 11 Apr 2025 16:57:01 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-B5Mrp2SItbb3vlmv8ksE4vDQY\u002BIpJduwH6NZhNppUQk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"4512"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022B5Mrp2SItbb3vlmv8ksE4vDQY\u002BIpJduwH6NZhNppUQk=\u0022"},{"Name":"Last-Modified","Value":"Sat, 12 Apr 2025 02:02:59 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KutezClient/css/site.x21yfdrzok.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"x21yfdrzok"},{"Name":"integrity","Value":"sha256-B5Mrp2SItbb3vlmv8ksE4vDQY\u002BIpJduwH6NZhNppUQk="},{"Name":"label","Value":"_content/KutezClient/css/site.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"4512"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022B5Mrp2SItbb3vlmv8ksE4vDQY\u002BIpJduwH6NZhNppUQk=\u0022"},{"Name":"Last-Modified","Value":"Sat, 12 Apr 2025 02:02:59 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/KutezClient/favicon.61n19gt1b8.ico">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</AssetFile>
@@ -399,14 +399,14 @@
     <StaticWebAssetEndpoint Include="_content/KutezClient/js/site.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"231"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=\u0022"},{"Name":"Last-Modified","Value":"Fri, 11 Apr 2025 14:47:41 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-MC1ELXILLvAA9WDzYLMBWXd1uGsrJiaTfR56kltOV4Y="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1117"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022MC1ELXILLvAA9WDzYLMBWXd1uGsrJiaTfR56kltOV4Y=\u0022"},{"Name":"Last-Modified","Value":"Sat, 12 Apr 2025 01:53:08 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/KutezClient/js/site.xtxxf3hu2r.js">
+    <StaticWebAssetEndpoint Include="_content/KutezClient/js/site.k76rxxzjil.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"xtxxf3hu2r"},{"Name":"integrity","Value":"sha256-hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo="},{"Name":"label","Value":"_content/KutezClient/js/site.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"231"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=\u0022"},{"Name":"Last-Modified","Value":"Fri, 11 Apr 2025 14:47:41 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"k76rxxzjil"},{"Name":"integrity","Value":"sha256-MC1ELXILLvAA9WDzYLMBWXd1uGsrJiaTfR56kltOV4Y="},{"Name":"label","Value":"_content/KutezClient/js/site.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1117"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022MC1ELXILLvAA9WDzYLMBWXd1uGsrJiaTfR56kltOV4Y=\u0022"},{"Name":"Last-Modified","Value":"Sat, 12 Apr 2025 01:53:08 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/KutezClient/KutezClient.2iul824sn8.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\KutezClient.2iul824sn8.bundle.scp.css'))</AssetFile>

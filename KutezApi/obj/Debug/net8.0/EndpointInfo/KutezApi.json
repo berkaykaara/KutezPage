@@ -57,6 +57,10 @@
             "type": "number",
             "format": "double"
           },
+          "price": {
+            "type": "number",
+            "format": "double"
+          },
           "weight": {
             "type": "number",
             "format": "double"

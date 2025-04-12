@@ -1,4 +1,22 @@
-﻿@model List<KutezApi.Model.Product>
+﻿@using Microsoft.AspNetCore.Html
+@model List<KutezApi.Model.Product>
+
+@functions {
+    public HtmlString RenderStars(double popularityScore)
+    {
+        var html = "";
+        double filledStars = popularityScore * 5;
+
+        for (int i = 0; i < 5; i++)
+        {
+            double starFill = Math.Clamp(filledStars - i, 0, 1);
+            int percentage = (int)(starFill * 100);
+            html += $"<span class='star'><span class='star-fill' style='width:{percentage}%;'>&#9733;</span>&#9733;</span>";
+        }
+
+        return new HtmlString(html);
+    }
+}
 
 @{
     ViewData["Title"] = "Product List";
@@ -6,50 +24,51 @@
 
 <h1 class="page-title">Product List</h1>
 
-<div class="product-grid">
-    @for (int i = 0; i < Model.Count; i++)
-    {
-        var product = Model[i];
-        var imgId = "productImg" + i;
-        var colorNameId = "colorName" + i;
-        <div class="product-card">
-            <div class="product-image">
-                <img id="@imgId" src="@product.Images.Yellow" alt="@product.Name" />
-            </div>
+<div class="carousel-wrapper">
+    <button class="carousel-arrow left" onclick="scrollCarousel(-1)">&#10094;</button>
 
-            <div class="product-title">@product.Name</div>
+    <div class="carousel-container" id="carousel">
+        <div class="carousel-track">
+            @for (int i = 0; i < Model.Count; i++)
+            {
+                var product = Model[i];
+                var imgId = $"product-img-{i}";
+                var colorNameId = $"colorName-{i}";
+                <div class="product-card">
+                    <div class="product-image">
+                        <img id="@imgId" src="@product.Images.Yellow" alt="@product.Name" />
+                    </div>
 
-            <div class="color-buttons">
-                <label class="color-label yellow">
-                    <input type="radio" name="color-@i" checked onchange="changeImage('@imgId', '@product.Images.Yellow', '@colorNameId', 'Yellow Gold')" />
-                    <span class="color-dot"></span>
-                </label>
-                <label class="color-label white">
-                    <input type="radio" name="color-@i" onchange="changeImage('@imgId', '@product.Images.White', '@colorNameId', 'White Gold')" />
-                    <span class="color-dot"></span>
-                </label>
-                <label class="color-label rose">
-                    <input type="radio" name="color-@i" onchange="changeImage('@imgId', '@product.Images.Rose', '@colorNameId', 'Rose Gold')" />
-                    <span class="color-dot"></span>
-                </label>
-            </div>
+                    <div class="product-title">@product.Name</div>
+                    <p><span class="price-usd">$@product.Price.ToString("F2") USD</span></p>
 
-            <div class="selected-color-name" id="@colorNameId">Yellow Gold</div>
+                    <div class="color-buttons">
+                        <label class="color-label yellow">
+                            <input type="radio" name="color-@i" checked onchange="selectColor('@imgId', '@colorNameId', '@product.Images.Yellow', 'Yellow Gold')" />
+                            <span class="color-dot"></span>
+                        </label>
+                        <label class="color-label white">
+                            <input type="radio" name="color-@i" onchange="selectColor('@imgId', '@colorNameId', '@product.Images.White', 'White Gold')" />
+                            <span class="color-dot"></span>
+                        </label>
+                        <label class="color-label rose">
+                            <input type="radio" name="color-@i" onchange="selectColor('@imgId', '@colorNameId', '@product.Images.Rose', 'Rose Gold')" />
+                            <span class="color-dot"></span>
+                        </label>
+                    </div>
 
-            <div class="product-info" style="margin-top: 10px;">
-                <p><strong>Popularity:</strong> @product.PopularityScore</p>
-                <p><strong>Weight:</strong> @product.Weight g</p>
-            </div>
+                    <div class="selected-color-name" id="@colorNameId">Yellow Gold</div>
+
+                    <div class="product-info">
+                        @RenderStars(product.PopularityScore)
+                        <span class="rating-score">@Math.Round(product.PopularityScore * 5, 1)/5</span>
+                    </div>
+
+                    <div class="flex-grow"></div>
+                </div>
+            }
         </div>
-    }
+    </div>
+
+    <button class="carousel-arrow right" onclick="scrollCarousel(1)">&#10095;</button>
 </div>
-
-<script>
-    function changeImage(imgId, newSrc, colorNameId, colorName) {
-        const img = document.getElementById(imgId);
-        if (img) img.src = newSrc;
-
-        const nameLabel = document.getElementById(colorNameId);
-        if (nameLabel) nameLabel.textContent = colorName;
-    }
-</script>

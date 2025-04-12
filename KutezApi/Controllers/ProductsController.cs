@@ -17,10 +17,11 @@ namespace KutezApi.Controllers
         }
 
         [HttpGet]
-        public ActionResult<List<Product>> Get()
+        public async Task<ActionResult<List<Product>>> Get()
         {
-            var products = _productService.GetAll();
-            return Ok(products);
+            var products = await _productService.GetAllWithCalculatedPriceAsync(); // ← Burada `await` önemli
+            return Ok(products); // `products` tipi artık List<Product>
         }
+
     }
 }
